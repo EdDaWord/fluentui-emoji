@@ -166,7 +166,7 @@ function generateCaptions(metadata, filename, category = null) {
   
   const { cldr, keywords, glyph } = metadata;
   
-  // Generate caption with glyph, CLDR name and keywords
+  // Generate caption with CLDR name and keywords (without emoji glyph)
   let baseCaption = '';
   if (cldr) {
     if (keywords && keywords.length > 0) {
@@ -176,24 +176,24 @@ function generateCaptions(metadata, filename, category = null) {
       );
       
       if (uniqueKeywords.length > 0) {
-        // Format: "glyph cldr (keyword1, keyword2, keyword3)"
+        // Format: "cldr (keyword1, keyword2, keyword3)" - no emoji glyph
         const keywordText = uniqueKeywords.join(', ');
-        baseCaption = glyph ? `${glyph} ${cldr} (${keywordText})` : `${cldr} (${keywordText})`;
+        baseCaption = `${cldr} (${keywordText})`;
       } else {
-        // Just glyph and CLDR name if no unique keywords
-        baseCaption = glyph ? `${glyph} ${cldr}` : cldr;
+        // Just CLDR name if no unique keywords - no emoji glyph
+        baseCaption = cldr;
       }
     } else {
-      // Just glyph and CLDR name if no keywords
-      baseCaption = glyph ? `${glyph} ${cldr}` : cldr;
+      // Just CLDR name if no keywords - no emoji glyph
+      baseCaption = cldr;
     }
   } else if (keywords && keywords.length > 0) {
-    // Fallback to glyph and keywords if no CLDR
+    // Fallback to keywords if no CLDR - no emoji glyph
     const keywordText = keywords.join(', ');
-    baseCaption = glyph ? `${glyph} (${keywordText})` : `(${keywordText})`;
+    baseCaption = `(${keywordText})`;
   } else if (glyph) {
-    // Just glyph if no CLDR or keywords
-    baseCaption = glyph;
+    // Just use CLDR name if available, otherwise fallback to filename
+    baseCaption = cldr || filename.replace('_3d.png', '').replace(/_/g, ' ');
   }
   
   // Add category information if provided
@@ -207,8 +207,6 @@ function generateCaptions(metadata, filename, category = null) {
 
 async function processAssets() {
   const assetsPath = path.join(__dirname, 'assets');
-  const dataDir = path.join(__dirname, 'data');
-  const jsonlDir = path.join(__dirname, 'jsonl');
   const manualDataDir = path.join(__dirname, 'manual', 'data');
   const manualJsonlDir = path.join(__dirname, 'manual', 'jsonl');
   
@@ -216,9 +214,7 @@ async function processAssets() {
   const categories = await loadEmojiCategories();
   const manualCategories = await loadManualCategories();
   
-  console.log('Creating data, jsonl, and manual directories...');
-  await ensureDir(dataDir);
-  await ensureDir(jsonlDir);
+  console.log('Creating manual directories...');
   await ensureDir(manualDataDir);
   await ensureDir(manualJsonlDir);
   
@@ -226,8 +222,6 @@ async function processAssets() {
   const assetDirectories = await findAssetDirectories(assetsPath);
   console.log(`Found ${assetDirectories.length} asset directories`);
   
-  const categoryEntries = {};
-  const categoryStats = {};
   const manualCategoryEntries = {};
   const manualCategoryStats = {};
   let processedCount = 0;
@@ -254,99 +248,53 @@ async function processAssets() {
     const emojiGlyph = metadata?.glyph;
     const category = findEmojiCategory(emojiName, categories, manualCategories, emojiGlyph);
     
-    // Create category directory
-    const categoryDir = path.join(dataDir, category);
-    await ensureDir(categoryDir);
-    
-    // Initialize category stats and entries
-    if (!categoryStats[category]) {
-      categoryStats[category] = 0;
-      categoryEntries[category] = [];
+    // Check if this is a manual category - only process manual categories
+    const isManual = isManualCategory(category, manualCategories);
+    if (!isManual) {
+      console.log(`  Skipping ${assetName} - not in manual categories`);
+      skippedCount++;
+      continue;
     }
     
-    // Check if this is a manual category
-    const isManual = isManualCategory(category, manualCategories);
-    if (isManual) {
-      if (!manualCategoryStats[category]) {
-        manualCategoryStats[category] = 0;
-        manualCategoryEntries[category] = [];
-      }
+    // Initialize manual category stats and entries
+    if (!manualCategoryStats[category]) {
+      manualCategoryStats[category] = 0;
+      manualCategoryEntries[category] = [];
     }
     
     // Process each 3D file (usually just one, but some assets might have variants)
     for (const fileInfo of threeDFiles) {
       const { originalPath, filename } = fileInfo;
       
-      // Generate a safe filename for the data directory
+      // Generate a safe filename for the manual data directory
       const safeFilename = filename.replace(/[^a-z0-9._-]/gi, '_').toLowerCase();
-      const targetPath = path.join(categoryDir, safeFilename);
-      const relativePath = `data/${category}/${safeFilename}`;
       
       try {
-        // Copy the file to category directory
-        await copyFile(originalPath, targetPath);
-        
-        // If this is a manual category, also copy to manual folder
-        if (isManual) {
-          const manualCategoryDir = path.join(manualDataDir, category);
-          await ensureDir(manualCategoryDir);
-          const manualTargetPath = path.join(manualCategoryDir, safeFilename);
-          await copyFile(originalPath, manualTargetPath);
-        }
+        // Copy the file to manual category directory
+        const manualCategoryDir = path.join(manualDataDir, category);
+        await ensureDir(manualCategoryDir);
+        const manualTargetPath = path.join(manualCategoryDir, safeFilename);
+        await copyFile(originalPath, manualTargetPath);
         
         // Generate captions
         const captions = generateCaptions(metadata, filename, category);
         
-        // Create JSONL entries for this category
+        // Create JSONL entries for manual category
         for (const caption of captions) {
-          categoryEntries[category].push({
-            image: relativePath,
+          const manualRelativePath = `data/${category}/${safeFilename}`;
+          manualCategoryEntries[category].push({
+            image: manualRelativePath,
             caption: caption
           });
-          
-          // If this is a manual category, also add to manual entries
-          if (isManual) {
-            const manualRelativePath = `data/${category}/${safeFilename}`;
-            manualCategoryEntries[category].push({
-              image: manualRelativePath,
-              caption: caption
-            });
-          }
         }
         
-        categoryStats[category]++;
-        if (isManual) {
-          manualCategoryStats[category]++;
-        }
+        manualCategoryStats[category]++;
         processedCount++;
         
       } catch (error) {
         console.error(`Failed to process ${filename}:`, error.message);
         skippedCount++;
       }
-    }
-  }
-  
-  console.log(`\nWriting JSONL files for each category...`);
-  
-  // Write separate JSONL files for each category
-  let totalEntries = 0;
-  for (const [category, entries] of Object.entries(categoryEntries)) {
-    if (entries.length > 0) {
-      // Convert category name to CamelCase
-      const camelCaseName = category
-        .replace(/[^a-z0-9\s-]/gi, '') // Remove special characters except spaces and hyphens
-        .split(/[\s-]+/) // Split on spaces and hyphens
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
-        .join('');
-      const outputFile = path.join(jsonlDir, `${camelCaseName}.jsonl`);
-      const jsonlContent = entries
-        .map(entry => JSON.stringify(entry))
-        .join('\n');
-      
-      await writeFile(outputFile, jsonlContent, 'utf-8');
-      totalEntries += entries.length;
-      console.log(`  - ${category}: ${entries.length} entries -> ${outputFile}`);
     }
   }
   
@@ -375,16 +323,9 @@ async function processAssets() {
   console.log(`\nDataset generation complete!`);
   console.log(`- Processed: ${processedCount} assets`);
   console.log(`- Skipped: ${skippedCount} assets`);
-  console.log(`- Total JSONL entries: ${totalEntries}`);
   console.log(`- Manual JSONL entries: ${manualTotalEntries}`);
-  console.log(`- Images copied to: ${dataDir}`);
-  console.log(`- JSONL files written to: ${jsonlDir}`);
   console.log(`- Manual images copied to: ${manualDataDir}`);
   console.log(`- Manual JSONL files written to: ${manualJsonlDir}`);
-  console.log(`\nCategory breakdown:`);
-  for (const [category, count] of Object.entries(categoryStats)) {
-    console.log(`  - ${category}: ${count} emojis`);
-  }
   console.log(`\nManual category breakdown:`);
   for (const [category, count] of Object.entries(manualCategoryStats)) {
     console.log(`  - ${category}: ${count} emojis`);

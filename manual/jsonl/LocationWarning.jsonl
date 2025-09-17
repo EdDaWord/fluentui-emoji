@@ -1,27 +1,27 @@
-{"image":"data/Location & Warning/atm_sign_3d.png","caption":"🏧 ATM sign (atm, automated, bank, teller). Category of Location & Warning"}
-{"image":"data/Location & Warning/baby_symbol_3d.png","caption":"🚼 baby symbol (baby, changing). Category of Location & Warning"}
-{"image":"data/Location & Warning/baggage_claim_3d.png","caption":"🛄 baggage claim (baggage, claim). Category of Location & Warning"}
-{"image":"data/Location & Warning/biohazard_3d.png","caption":"☣️ biohazard (sign). Category of Location & Warning"}
-{"image":"data/Location & Warning/children_crossing_3d.png","caption":"🚸 children crossing (child, crossing, pedestrian, traffic). Category of Location & Warning"}
-{"image":"data/Location & Warning/customs_3d.png","caption":"🛃 customs. Category of Location & Warning"}
-{"image":"data/Location & Warning/elevator_3d.png","caption":"🛗 elevator (accessibility, hoist, lift). Category of Location & Warning"}
-{"image":"data/Location & Warning/left_luggage_3d.png","caption":"🛅 left luggage (baggage, locker, luggage). Category of Location & Warning"}
-{"image":"data/Location & Warning/litter_in_bin_sign_3d.png","caption":"🚮 litter in bin sign (litter, litter bin). Category of Location & Warning"}
-{"image":"data/Location & Warning/mens_room_3d.png","caption":"🚹 men’s room (lavatory, man, restroom, wc). Category of Location & Warning"}
-{"image":"data/Location & Warning/no_bicycles_3d.png","caption":"🚳 no bicycles (bicycle, bike, forbidden, no, prohibited). Category of Location & Warning"}
-{"image":"data/Location & Warning/no_entry_3d.png","caption":"⛔ no entry (entry, forbidden, no, not, prohibited, traffic). Category of Location & Warning"}
-{"image":"data/Location & Warning/no_littering_3d.png","caption":"🚯 no littering (forbidden, litter, no, not, prohibited). Category of Location & Warning"}
-{"image":"data/Location & Warning/no_mobile_phones_3d.png","caption":"📵 no mobile phones (cell, forbidden, mobile, no, phone). Category of Location & Warning"}
-{"image":"data/Location & Warning/no_one_under_eighteen_3d.png","caption":"🔞 no one under eighteen (18, age restriction, eighteen, prohibited, underage). Category of Location & Warning"}
-{"image":"data/Location & Warning/no_pedestrians_3d.png","caption":"🚷 no pedestrians (forbidden, no, not, pedestrian, prohibited). Category of Location & Warning"}
-{"image":"data/Location & Warning/no_smoking_3d.png","caption":"🚭 no smoking (forbidden, no, not, prohibited, smoking). Category of Location & Warning"}
-{"image":"data/Location & Warning/non-potable_water_3d.png","caption":"🚱 non-potable water (non-drinking, non-potable, water). Category of Location & Warning"}
-{"image":"data/Location & Warning/passport_control_3d.png","caption":"🛂 passport control (control, passport). Category of Location & Warning"}
-{"image":"data/Location & Warning/potable_water_3d.png","caption":"🚰 potable water (drinking, potable, water). Category of Location & Warning"}
-{"image":"data/Location & Warning/prohibited_3d.png","caption":"🚫 prohibited (entry, forbidden, no, not). Category of Location & Warning"}
-{"image":"data/Location & Warning/radioactive_3d.png","caption":"☢️ radioactive (sign). Category of Location & Warning"}
-{"image":"data/Location & Warning/restroom_3d.png","caption":"🚻 restroom (lavatory, WC). Category of Location & Warning"}
-{"image":"data/Location & Warning/warning_3d.png","caption":"⚠️ warning. Category of Location & Warning"}
-{"image":"data/Location & Warning/water_closet_3d.png","caption":"🚾 water closet (closet, lavatory, restroom, water, wc). Category of Location & Warning"}
-{"image":"data/Location & Warning/wheelchair_symbol_3d.png","caption":"♿ wheelchair symbol (access). Category of Location & Warning"}
-{"image":"data/Location & Warning/womens_room_3d.png","caption":"🚺 women’s room (lavatory, restroom, wc, woman). Category of Location & Warning"}
+{"image":"data/Location & Warning/atm_sign_3d.png","caption":"ATM sign (atm, automated, bank, teller). Category of Location & Warning"}
+{"image":"data/Location & Warning/baby_symbol_3d.png","caption":"baby symbol (baby, changing). Category of Location & Warning"}
+{"image":"data/Location & Warning/baggage_claim_3d.png","caption":"baggage claim (baggage, claim). Category of Location & Warning"}
+{"image":"data/Location & Warning/biohazard_3d.png","caption":"biohazard (sign). Category of Location & Warning"}
+{"image":"data/Location & Warning/children_crossing_3d.png","caption":"children crossing (child, crossing, pedestrian, traffic). Category of Location & Warning"}
+{"image":"data/Location & Warning/customs_3d.png","caption":"customs. Category of Location & Warning"}
+{"image":"data/Location & Warning/elevator_3d.png","caption":"elevator (accessibility, hoist, lift). Category of Location & Warning"}
+{"image":"data/Location & Warning/left_luggage_3d.png","caption":"left luggage (baggage, locker, luggage). Category of Location & Warning"}
+{"image":"data/Location & Warning/litter_in_bin_sign_3d.png","caption":"litter in bin sign (litter, litter bin). Category of Location & Warning"}
+{"image":"data/Location & Warning/mens_room_3d.png","caption":"men’s room (lavatory, man, restroom, wc). Category of Location & Warning"}
+{"image":"data/Location & Warning/no_bicycles_3d.png","caption":"no bicycles (bicycle, bike, forbidden, no, prohibited). Category of Location & Warning"}
+{"image":"data/Location & Warning/no_entry_3d.png","caption":"no entry (entry, forbidden, no, not, prohibited, traffic). Category of Location & Warning"}
+{"image":"data/Location & Warning/no_littering_3d.png","caption":"no littering (forbidden, litter, no, not, prohibited). Category of Location & Warning"}
+{"image":"data/Location & Warning/no_mobile_phones_3d.png","caption":"no mobile phones (cell, forbidden, mobile, no, phone). Category of Location & Warning"}
+{"image":"data/Location & Warning/no_one_under_eighteen_3d.png","caption":"no one under eighteen (18, age restriction, eighteen, prohibited, underage). Category of Location & Warning"}
+{"image":"data/Location & Warning/no_pedestrians_3d.png","caption":"no pedestrians (forbidden, no, not, pedestrian, prohibited). Category of Location & Warning"}
+{"image":"data/Location & Warning/no_smoking_3d.png","caption":"no smoking (forbidden, no, not, prohibited, smoking). Category of Location & Warning"}
+{"image":"data/Location & Warning/non-potable_water_3d.png","caption":"non-potable water (non-drinking, non-potable, water). Category of Location & Warning"}
+{"image":"data/Location & Warning/passport_control_3d.png","caption":"passport control (control, passport). Category of Location & Warning"}
+{"image":"data/Location & Warning/potable_water_3d.png","caption":"potable water (drinking, potable, water). Category of Location & Warning"}
+{"image":"data/Location & Warning/prohibited_3d.png","caption":"prohibited (entry, forbidden, no, not). Category of Location & Warning"}
+{"image":"data/Location & Warning/radioactive_3d.png","caption":"radioactive (sign). Category of Location & Warning"}
+{"image":"data/Location & Warning/restroom_3d.png","caption":"restroom (lavatory, WC). Category of Location & Warning"}
+{"image":"data/Location & Warning/warning_3d.png","caption":"warning. Category of Location & Warning"}
+{"image":"data/Location & Warning/water_closet_3d.png","caption":"water closet (closet, lavatory, restroom, water, wc). Category of Location & Warning"}
+{"image":"data/Location & Warning/wheelchair_symbol_3d.png","caption":"wheelchair symbol (access). Category of Location & Warning"}
+{"image":"data/Location & Warning/womens_room_3d.png","caption":"women’s room (lavatory, restroom, wc, woman). Category of Location & Warning"}

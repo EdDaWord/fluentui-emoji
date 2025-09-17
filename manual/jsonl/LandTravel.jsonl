@@ -1,50 +1,50 @@
-{"image":"data/Land Travel/ambulance_3d.png","caption":"🚑 ambulance (vehicle). Category of Land Travel"}
-{"image":"data/Land Travel/articulated_lorry_3d.png","caption":"🚛 articulated lorry (lorry, semi, truck). Category of Land Travel"}
-{"image":"data/Land Travel/auto_rickshaw_3d.png","caption":"🛺 auto rickshaw (tuk tuk). Category of Land Travel"}
-{"image":"data/Land Travel/automobile_3d.png","caption":"🚗 automobile (car). Category of Land Travel"}
-{"image":"data/Land Travel/bicycle_3d.png","caption":"🚲 bicycle (bike). Category of Land Travel"}
-{"image":"data/Land Travel/bullet_train_3d.png","caption":"🚅 bullet train (bullet, railway, shinkansen, speed, train). Category of Land Travel"}
-{"image":"data/Land Travel/bus_3d.png","caption":"🚌 bus (vehicle). Category of Land Travel"}
-{"image":"data/Land Travel/bus_stop_3d.png","caption":"🚏 bus stop (bus, stop). Category of Land Travel"}
-{"image":"data/Land Travel/construction_3d.png","caption":"🚧 construction (barrier). Category of Land Travel"}
-{"image":"data/Land Travel/delivery_truck_3d.png","caption":"🚚 delivery truck (delivery, truck). Category of Land Travel"}
-{"image":"data/Land Travel/fire_engine_3d.png","caption":"🚒 fire engine (engine, fire, truck). Category of Land Travel"}
-{"image":"data/Land Travel/fuel_pump_3d.png","caption":"⛽ fuel pump (diesel, fuel, fuelpump, gas, pump, station). Category of Land Travel"}
-{"image":"data/Land Travel/high-speed_train_3d.png","caption":"🚄 high-speed train (railway, shinkansen, speed, train). Category of Land Travel"}
-{"image":"data/Land Travel/horizontal_traffic_light_3d.png","caption":"🚥 horizontal traffic light (light, signal, traffic). Category of Land Travel"}
-{"image":"data/Land Travel/kick_scooter_3d.png","caption":"🛴 kick scooter (kick, scooter). Category of Land Travel"}
-{"image":"data/Land Travel/light_rail_3d.png","caption":"🚈 light rail (railway). Category of Land Travel"}
-{"image":"data/Land Travel/locomotive_3d.png","caption":"🚂 locomotive (engine, railway, steam, train). Category of Land Travel"}
-{"image":"data/Land Travel/manual_wheelchair_3d.png","caption":"🦽 manual wheelchair (accessibility). Category of Land Travel"}
-{"image":"data/Land Travel/metro_3d.png","caption":"🚇 metro (subway). Category of Land Travel"}
-{"image":"data/Land Travel/minibus_3d.png","caption":"🚐 minibus (bus). Category of Land Travel"}
-{"image":"data/Land Travel/monorail_3d.png","caption":"🚝 monorail (vehicle). Category of Land Travel"}
-{"image":"data/Land Travel/motor_scooter_3d.png","caption":"🛵 motor scooter (motor, scooter). Category of Land Travel"}
-{"image":"data/Land Travel/motorcycle_3d.png","caption":"🏍️ motorcycle (racing). Category of Land Travel"}
-{"image":"data/Land Travel/motorized_wheelchair_3d.png","caption":"🦼 motorized wheelchair (accessibility). Category of Land Travel"}
-{"image":"data/Land Travel/motorway_3d.png","caption":"🛣️ motorway (highway, road). Category of Land Travel"}
-{"image":"data/Land Travel/mountain_railway_3d.png","caption":"🚞 mountain railway (car, mountain, railway). Category of Land Travel"}
-{"image":"data/Land Travel/oil_drum_3d.png","caption":"🛢️ oil drum (drum, oil). Category of Land Travel"}
-{"image":"data/Land Travel/oncoming_automobile_3d.png","caption":"🚘 oncoming automobile (automobile, car, oncoming). Category of Land Travel"}
-{"image":"data/Land Travel/oncoming_bus_3d.png","caption":"🚍 oncoming bus (bus, oncoming). Category of Land Travel"}
-{"image":"data/Land Travel/oncoming_police_car_3d.png","caption":"🚔 oncoming police car (car, oncoming, police). Category of Land Travel"}
-{"image":"data/Land Travel/oncoming_taxi_3d.png","caption":"🚖 oncoming taxi (oncoming, taxi). Category of Land Travel"}
-{"image":"data/Land Travel/pickup_truck_3d.png","caption":"🛻 pickup truck (pick-up, pickup, truck). Category of Land Travel"}
-{"image":"data/Land Travel/police_car_3d.png","caption":"🚓 police car (car, patrol, police). Category of Land Travel"}
-{"image":"data/Land Travel/police_car_light_3d.png","caption":"🚨 police car light (beacon, car, light, police, revolving). Category of Land Travel"}
-{"image":"data/Land Travel/racing_car_3d.png","caption":"🏎️ racing car (car, racing). Category of Land Travel"}
-{"image":"data/Land Travel/railway_car_3d.png","caption":"🚃 railway car (car, electric, railway, train, tram, trolleybus). Category of Land Travel"}
-{"image":"data/Land Travel/railway_track_3d.png","caption":"🛤️ railway track (railway, train). Category of Land Travel"}
-{"image":"data/Land Travel/roller_skate_3d.png","caption":"🛼 roller skate (roller, skate). Category of Land Travel"}
-{"image":"data/Land Travel/skateboard_3d.png","caption":"🛹 skateboard (board). Category of Land Travel"}
-{"image":"data/Land Travel/sport_utility_vehicle_3d.png","caption":"🚙 sport utility vehicle (recreational, sport utility). Category of Land Travel"}
-{"image":"data/Land Travel/station_3d.png","caption":"🚉 station (railway, train). Category of Land Travel"}
-{"image":"data/Land Travel/stop_sign_3d.png","caption":"🛑 stop sign (octagonal, sign, stop). Category of Land Travel"}
-{"image":"data/Land Travel/taxi_3d.png","caption":"🚕 taxi (vehicle). Category of Land Travel"}
-{"image":"data/Land Travel/tractor_3d.png","caption":"🚜 tractor (vehicle). Category of Land Travel"}
-{"image":"data/Land Travel/train_3d.png","caption":"🚆 train (railway). Category of Land Travel"}
-{"image":"data/Land Travel/tram_3d.png","caption":"🚊 tram (trolleybus). Category of Land Travel"}
-{"image":"data/Land Travel/tram_car_3d.png","caption":"🚋 tram car (car, tram, trolleybus). Category of Land Travel"}
-{"image":"data/Land Travel/trolleybus_3d.png","caption":"🚎 trolleybus (bus, tram, trolley). Category of Land Travel"}
-{"image":"data/Land Travel/vertical_traffic_light_3d.png","caption":"🚦 vertical traffic light (light, signal, traffic). Category of Land Travel"}
-{"image":"data/Land Travel/wheel_3d.png","caption":"🛞 wheel (circle, tire, turn). Category of Land Travel"}
+{"image":"data/Land Travel/ambulance_3d.png","caption":"ambulance (vehicle). Category of Land Travel"}
+{"image":"data/Land Travel/articulated_lorry_3d.png","caption":"articulated lorry (lorry, semi, truck). Category of Land Travel"}
+{"image":"data/Land Travel/auto_rickshaw_3d.png","caption":"auto rickshaw (tuk tuk). Category of Land Travel"}
+{"image":"data/Land Travel/automobile_3d.png","caption":"automobile (car). Category of Land Travel"}
+{"image":"data/Land Travel/bicycle_3d.png","caption":"bicycle (bike). Category of Land Travel"}
+{"image":"data/Land Travel/bullet_train_3d.png","caption":"bullet train (bullet, railway, shinkansen, speed, train). Category of Land Travel"}
+{"image":"data/Land Travel/bus_3d.png","caption":"bus (vehicle). Category of Land Travel"}
+{"image":"data/Land Travel/bus_stop_3d.png","caption":"bus stop (bus, stop). Category of Land Travel"}
+{"image":"data/Land Travel/construction_3d.png","caption":"construction (barrier). Category of Land Travel"}
+{"image":"data/Land Travel/delivery_truck_3d.png","caption":"delivery truck (delivery, truck). Category of Land Travel"}
+{"image":"data/Land Travel/fire_engine_3d.png","caption":"fire engine (engine, fire, truck). Category of Land Travel"}
+{"image":"data/Land Travel/fuel_pump_3d.png","caption":"fuel pump (diesel, fuel, fuelpump, gas, pump, station). Category of Land Travel"}
+{"image":"data/Land Travel/high-speed_train_3d.png","caption":"high-speed train (railway, shinkansen, speed, train). Category of Land Travel"}
+{"image":"data/Land Travel/horizontal_traffic_light_3d.png","caption":"horizontal traffic light (light, signal, traffic). Category of Land Travel"}
+{"image":"data/Land Travel/kick_scooter_3d.png","caption":"kick scooter (kick, scooter). Category of Land Travel"}
+{"image":"data/Land Travel/light_rail_3d.png","caption":"light rail (railway). Category of Land Travel"}
+{"image":"data/Land Travel/locomotive_3d.png","caption":"locomotive (engine, railway, steam, train). Category of Land Travel"}
+{"image":"data/Land Travel/manual_wheelchair_3d.png","caption":"manual wheelchair (accessibility). Category of Land Travel"}
+{"image":"data/Land Travel/metro_3d.png","caption":"metro (subway). Category of Land Travel"}
+{"image":"data/Land Travel/minibus_3d.png","caption":"minibus (bus). Category of Land Travel"}
+{"image":"data/Land Travel/monorail_3d.png","caption":"monorail (vehicle). Category of Land Travel"}
+{"image":"data/Land Travel/motor_scooter_3d.png","caption":"motor scooter (motor, scooter). Category of Land Travel"}
+{"image":"data/Land Travel/motorcycle_3d.png","caption":"motorcycle (racing). Category of Land Travel"}
+{"image":"data/Land Travel/motorized_wheelchair_3d.png","caption":"motorized wheelchair (accessibility). Category of Land Travel"}
+{"image":"data/Land Travel/motorway_3d.png","caption":"motorway (highway, road). Category of Land Travel"}
+{"image":"data/Land Travel/mountain_railway_3d.png","caption":"mountain railway (car, mountain, railway). Category of Land Travel"}
+{"image":"data/Land Travel/oil_drum_3d.png","caption":"oil drum (drum, oil). Category of Land Travel"}
+{"image":"data/Land Travel/oncoming_automobile_3d.png","caption":"oncoming automobile (automobile, car, oncoming). Category of Land Travel"}
+{"image":"data/Land Travel/oncoming_bus_3d.png","caption":"oncoming bus (bus, oncoming). Category of Land Travel"}
+{"image":"data/Land Travel/oncoming_police_car_3d.png","caption":"oncoming police car (car, oncoming, police). Category of Land Travel"}
+{"image":"data/Land Travel/oncoming_taxi_3d.png","caption":"oncoming taxi (oncoming, taxi). Category of Land Travel"}
+{"image":"data/Land Travel/pickup_truck_3d.png","caption":"pickup truck (pick-up, pickup, truck). Category of Land Travel"}
+{"image":"data/Land Travel/police_car_3d.png","caption":"police car (car, patrol, police). Category of Land Travel"}
+{"image":"data/Land Travel/police_car_light_3d.png","caption":"police car light (beacon, car, light, police, revolving). Category of Land Travel"}
+{"image":"data/Land Travel/racing_car_3d.png","caption":"racing car (car, racing). Category of Land Travel"}
+{"image":"data/Land Travel/railway_car_3d.png","caption":"railway car (car, electric, railway, train, tram, trolleybus). Category of Land Travel"}
+{"image":"data/Land Travel/railway_track_3d.png","caption":"railway track (railway, train). Category of Land Travel"}
+{"image":"data/Land Travel/roller_skate_3d.png","caption":"roller skate (roller, skate). Category of Land Travel"}
+{"image":"data/Land Travel/skateboard_3d.png","caption":"skateboard (board). Category of Land Travel"}
+{"image":"data/Land Travel/sport_utility_vehicle_3d.png","caption":"sport utility vehicle (recreational, sport utility). Category of Land Travel"}
+{"image":"data/Land Travel/station_3d.png","caption":"station (railway, train). Category of Land Travel"}
+{"image":"data/Land Travel/stop_sign_3d.png","caption":"stop sign (octagonal, sign, stop). Category of Land Travel"}
+{"image":"data/Land Travel/taxi_3d.png","caption":"taxi (vehicle). Category of Land Travel"}
+{"image":"data/Land Travel/tractor_3d.png","caption":"tractor (vehicle). Category of Land Travel"}
+{"image":"data/Land Travel/train_3d.png","caption":"train (railway). Category of Land Travel"}
+{"image":"data/Land Travel/tram_3d.png","caption":"tram (trolleybus). Category of Land Travel"}
+{"image":"data/Land Travel/tram_car_3d.png","caption":"tram car (car, tram, trolleybus). Category of Land Travel"}
+{"image":"data/Land Travel/trolleybus_3d.png","caption":"trolleybus (bus, tram, trolley). Category of Land Travel"}
+{"image":"data/Land Travel/vertical_traffic_light_3d.png","caption":"vertical traffic light (light, signal, traffic). Category of Land Travel"}
+{"image":"data/Land Travel/wheel_3d.png","caption":"wheel (circle, tire, turn). Category of Land Travel"}
