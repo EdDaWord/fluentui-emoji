@@ -9,7 +9,7 @@ Layout assumptions (observed in this repo):
   assets/<Emoji Name>/{Default,Light,Medium-Light,Medium,Medium-Dark,Dark}/{Color,Flat,High Contrast}/*.svg
 
 The script mirrors the input folder structure under an output directory
-(`png-fluent` by default) and produces 512x512 PNGs by default.
+(`512x512-fluent` by default) and produces 512x512 PNGs by default.
 
 Converters (tried in order):
 1) macOS sips
@@ -212,7 +212,7 @@ async function processAssets(options = {}) {
     outputSize = 512,
     testMode = false,
     testCount = 5,
-    outputDirName = 'png-fluent',
+    outputDirName = '512x512-fluent',
     styles = ['Color']
   } = options;
 
@@ -294,7 +294,7 @@ if (require.main === module) {
         options.testCount = parseInt(args[++i], 10) || 5;
         break;
       case '--out':
-        options.outputDirName = args[++i] || 'png-fluent';
+        options.outputDirName = args[++i] || '512x512-fluent';
         break;
       case '--style': {
         const val = (args[++i] || '').trim();
@@ -311,7 +311,7 @@ if (require.main === module) {
         console.log('Options:');
         console.log('  --size N     Output size in pixels (default: 512)');
         console.log('  --test N     Test mode with N directories (default: 5)');
-        console.log('  --out DIR    Output directory name (default: png-fluent)');
+        console.log('  --out DIR    Output directory name (default: 512x512-fluent)');
         console.log('  --style S    Style to include (repeatable). Default: Color');
         console.log('  --styles L   Comma-separated styles to include');
         console.log('  --help       Show this help');

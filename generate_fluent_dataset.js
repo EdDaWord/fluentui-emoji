@@ -142,7 +142,7 @@ async function find3DFiles(assetDir) {
   return files;
 }
 
-// Color PNG discovery under png-fluent output produced by converter
+// Color PNG discovery under 512x512-fluent output produced by converter
 const SKINTONE_FOLDERS = new Set([
   'Default',
   'Light',
@@ -250,7 +250,7 @@ function generateCaptions(metadata, filename, category = null) {
 
 async function processAssets() {
   const assetsPath = path.join(__dirname, 'assets');
-  const pngRoot = path.join(__dirname, 'png-fluent');
+  const pngRoot = path.join(__dirname, '512x512-fluent');
   const manualDataDir = path.join(__dirname, 'manualFluent', 'data');
   const manualJsonlDir = path.join(__dirname, 'manualFluent', 'jsonl');
   
@@ -275,7 +275,7 @@ async function processAssets() {
     const assetName = path.basename(assetDir);
     console.log(`Processing ${assetName}...`);
     
-    // Find Color PNG files for this asset in png-fluent
+    // Find Color PNG files for this asset in 512x512-fluent
     const colorPngFiles = await findColorPngFiles(pngRoot, assetName);
     
     if (colorPngFiles.length === 0) {

@@ -161,7 +161,7 @@ function unicodeFilenameToUnicode(filename) {
 // Main processing function
 async function processOpenmojiAssets() {
   const assetsPath = path.join(__dirname, 'assets');
-  const openmoji72Path = path.join(__dirname, '72x72-openmoji');
+  const openmoji72Path = path.join(__dirname, '512x512-openmoji');
   const openmojiDataDir = path.join(__dirname, 'manualOpenmoji', 'data');
   const openmojiJsonlDir = path.join(__dirname, 'manualOpenmoji', 'jsonl');
   
@@ -174,10 +174,10 @@ async function processOpenmojiAssets() {
   await ensureDir(openmojiDataDir);
   await ensureDir(openmojiJsonlDir);
   
-  // Read all PNG files from 72x72-openmoji directory
+  // Read all PNG files from 512x512-openmoji directory
   const openmojiFiles = await readdir(openmoji72Path);
   const pngFiles = openmojiFiles.filter(file => file.endsWith('.png'));
-  console.log(`Found ${pngFiles.length} PNG files in 72x72-openmoji directory`);
+  console.log(`Found ${pngFiles.length} PNG files in 512x512-openmoji directory`);
   
   const openmojiCategoryEntries = {};
   const openmojiCategoryStats = {};

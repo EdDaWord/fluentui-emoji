@@ -161,7 +161,7 @@ function unicodeToFilename(unicode) {
 
 async function processTwitterAssets() {
   const assetsPath = path.join(__dirname, 'assets');
-  const twitter72Path = path.join(__dirname, '72x72-twitter');
+  const twitter512Path = path.join(__dirname, '512x512-twitter');
   const twitterDataDir = path.join(__dirname, 'manualTwitter', 'data');
   const twitterJsonlDir = path.join(__dirname, 'manualTwitter', 'jsonl');
   
@@ -189,10 +189,10 @@ async function processTwitterAssets() {
   
   console.log(`Created unicode metadata map with ${unicodeToMetadata.size} entries`);
   
-  // Get all 72x72 PNG files
-  const twitterFiles = await readdir(twitter72Path);
+  // Get all 512x512 PNG files
+  const twitterFiles = await readdir(twitter512Path);
   const pngFiles = twitterFiles.filter(file => file.endsWith('.png'));
-  console.log(`Found ${pngFiles.length} PNG files in 72x72-twitter directory`);
+  console.log(`Found ${pngFiles.length} PNG files in 512x512-twitter directory`);
   
   const twitterCategoryEntries = {};
   const twitterCategoryStats = {};
@@ -243,7 +243,7 @@ async function processTwitterAssets() {
       // Copy the file to twitter category directory
       const twitterCategoryDir = path.join(twitterDataDir, category);
       await ensureDir(twitterCategoryDir);
-      const sourcePath = path.join(twitter72Path, filename);
+      const sourcePath = path.join(twitter512Path, filename);
       const targetPath = path.join(twitterCategoryDir, safeFilename);
       await copyFile(sourcePath, targetPath);
       
