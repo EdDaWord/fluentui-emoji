@@ -9,7 +9,9 @@
     "generate:apple": "node generate_apple_dataset.js",
     "generate:google": "node generate_google_dataset.js",
     "generate:openmoji": "node generate_openmoji_dataset.js",
-    "generate:twitter": "node generate_twitter_dataset.js"
+    "generate:twitter": "node generate_twitter_dataset.js",
+    "png:svgs": "node scripts/convert_svgs_to_pngs.js --size 512 --style Color",
+    "png:test": "node scripts/convert_svgs_to_pngs.js --size 512 --test 5 --style Color"
   },
   "keywords": [
     "emoji",
