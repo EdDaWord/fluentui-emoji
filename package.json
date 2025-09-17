@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node generate_dataset.js",
     "generate": "node generate_dataset.js",
+    "generate:fluent": "node generate_dataset.js",
+    "manual:fluent": "node generate_dataset.js",
     "generate:apple": "node generate_apple_dataset.js",
     "generate:google": "node generate_google_dataset.js",
     "generate:openmoji": "node generate_openmoji_dataset.js",
