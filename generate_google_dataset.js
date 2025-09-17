@@ -162,7 +162,7 @@ function unicodeFilenameToUnicode(filename) {
 // Main processing function
 async function processGoogleAssets() {
   const assetsPath = path.join(__dirname, 'assets');
-  const google72Path = path.join(__dirname, '72x72-google');
+  const google512Path = path.join(__dirname, '512x512-google');
   const googleDataDir = path.join(__dirname, 'manualGoogle', 'data');
   const googleJsonlDir = path.join(__dirname, 'manualGoogle', 'jsonl');
   
@@ -175,10 +175,10 @@ async function processGoogleAssets() {
   await ensureDir(googleDataDir);
   await ensureDir(googleJsonlDir);
   
-  // Read all PNG files from 72x72-google directory
-  const googleFiles = await readdir(google72Path);
+  // Read all PNG files from 512x512-google directory
+  const googleFiles = await readdir(google512Path);
   const pngFiles = googleFiles.filter(file => file.endsWith('.png'));
-  console.log(`Found ${pngFiles.length} PNG files in 72x72-google directory`);
+  console.log(`Found ${pngFiles.length} PNG files in 512x512-google directory`);
   
   const googleCategoryEntries = {};
   const googleCategoryStats = {};
@@ -234,7 +234,7 @@ async function processGoogleAssets() {
         // Copy the file to google category directory
         const googleCategoryDir = path.join(googleDataDir, category);
         await ensureDir(googleCategoryDir);
-        const sourcePath = path.join(google72Path, filename);
+        const sourcePath = path.join(google512Path, filename);
         const targetPath = path.join(googleCategoryDir, safeFilename);
         await copyFile(sourcePath, targetPath);
         

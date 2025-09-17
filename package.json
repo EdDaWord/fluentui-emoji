@@ -2,18 +2,20 @@
   "name": "fluentui-emoji-dataset",
   "version": "1.0.0",
   "description": "Generate JSONL training dataset from FluentUI emoji assets",
-  "main": "generate_dataset.js",
+  "main": "generate_fluent_dataset.js",
   "scripts": {
-    "start": "node generate_dataset.js",
+    "start": "node generate_fluent_dataset.js",
     "generate": "node generate_dataset.js",
-    "generate:fluent": "node generate_dataset.js",
-    "manual:fluent": "node generate_dataset.js",
+    "generate:fluent": "node generate_fluent_dataset.js",
+    "manual:fluent": "node generate_fluent_dataset.js",
     "generate:apple": "node generate_apple_dataset.js",
     "generate:google": "node generate_google_dataset.js",
     "generate:openmoji": "node generate_openmoji_dataset.js",
     "generate:twitter": "node generate_twitter_dataset.js",
     "png:svgs": "node scripts/convert_svgs_to_pngs.js --size 512 --style Color",
-    "png:test": "node scripts/convert_svgs_to_pngs.js --size 512 --test 5 --style Color"
+    "png:test": "node scripts/convert_svgs_to_pngs.js --size 512 --test 5 --style Color",
+    "png:twitter": "node scripts/convert_twitter_svgs_to_pngs.js --size 512",
+    "png:twitter:test": "node scripts/convert_twitter_svgs_to_pngs.js --size 512 --test 10"
   },
   "keywords": [
     "emoji",

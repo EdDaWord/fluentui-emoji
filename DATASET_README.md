@@ -24,7 +24,7 @@ This Node.js script generates a JSONL training dataset from the FluentUI emoji 3
    ```bash
    npm start
    # or
-   node generate_dataset.js
+   node generate_fluent_dataset.js
    ```
 
 3. **Output**:
