@@ -142,6 +142,49 @@ async function find3DFiles(assetDir) {
   return files;
 }
 
+// Color PNG discovery under png_icons output produced by converter
+const SKINTONE_FOLDERS = new Set([
+  'Default',
+  'Light',
+  'Medium-Light',
+  'Medium',
+  'Medium-Dark',
+  'Dark'
+]);
+
+async function listPngFilesUnder(dirPath) {
+  try {
+    const items = await readdir(dirPath);
+    return items
+      .filter((f) => f.toLowerCase().endsWith('.png'))
+      .map((f) => ({ originalPath: path.join(dirPath, f), filename: f }));
+  } catch (e) {
+    return [];
+  }
+}
+
+async function findColorPngFiles(pngRoot, assetName) {
+  const results = [];
+  // Top-level Color directory
+  const colorDir = path.join(pngRoot, assetName, 'Color');
+  results.push(...await listPngFilesUnder(colorDir));
+
+  // Skintone subdirectories
+  const assetRoot = path.join(pngRoot, assetName);
+  let subdirs = [];
+  try {
+    subdirs = await readdir(assetRoot);
+  } catch (e) {
+    subdirs = [];
+  }
+  for (const sub of subdirs) {
+    if (!SKINTONE_FOLDERS.has(sub)) continue;
+    const stColorDir = path.join(assetRoot, sub, 'Color');
+    results.push(...await listPngFilesUnder(stColorDir));
+  }
+  return results;
+}
+
 async function readMetadata(assetDir) {
   const metadataPath = path.join(assetDir, 'metadata.json');
   try {
@@ -158,7 +201,7 @@ function generateCaptions(metadata, filename, category = null) {
   
   if (!metadata) {
     // Fallback caption if no metadata
-    const baseName = filename.replace('_3d.png', '').replace(/_/g, ' ');
+    const baseName = filename.replace(/\.png$/i, '').replace(/_/g, ' ');
     const caption = category ? `${baseName}. Category of ${category}` : baseName;
     captions.push(caption);
     return captions;
@@ -193,7 +236,7 @@ function generateCaptions(metadata, filename, category = null) {
     baseCaption = `(${keywordText})`;
   } else if (glyph) {
     // Just use CLDR name if available, otherwise fallback to filename
-    baseCaption = cldr || filename.replace('_3d.png', '').replace(/_/g, ' ');
+    baseCaption = cldr || filename.replace(/\.png$/i, '').replace(/_/g, ' ');
   }
   
   // Add category information if provided
@@ -207,6 +250,7 @@ function generateCaptions(metadata, filename, category = null) {
 
 async function processAssets() {
   const assetsPath = path.join(__dirname, 'assets');
+  const pngRoot = path.join(__dirname, 'png_icons');
   const manualDataDir = path.join(__dirname, 'manual', 'data');
   const manualJsonlDir = path.join(__dirname, 'manual', 'jsonl');
   
@@ -231,11 +275,11 @@ async function processAssets() {
     const assetName = path.basename(assetDir);
     console.log(`Processing ${assetName}...`);
     
-    // Find 3D files in this asset directory
-    const threeDFiles = await find3DFiles(assetDir);
+    // Find Color PNG files for this asset in png_icons
+    const colorPngFiles = await findColorPngFiles(pngRoot, assetName);
     
-    if (threeDFiles.length === 0) {
-      console.log(`  No 3D files found for ${assetName}`);
+    if (colorPngFiles.length === 0) {
+      console.log(`  No Color PNG files found for ${assetName}`);
       skippedCount++;
       continue;
     }
@@ -262,8 +306,8 @@ async function processAssets() {
       manualCategoryEntries[category] = [];
     }
     
-    // Process each 3D file (usually just one, but some assets might have variants)
-    for (const fileInfo of threeDFiles) {
+    // Process each Color PNG file (may include skintone variants)
+    for (const fileInfo of colorPngFiles) {
       const { originalPath, filename } = fileInfo;
       
       // Generate a safe filename for the manual data directory

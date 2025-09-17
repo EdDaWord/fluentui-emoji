@@ -1,8 +1,614 @@
-{"image":"data/Activities & Sports/man_with_bunny_ears_3d.png","caption":"men with bunny ears (bunny ear, dancer, men, partying). Category of Activities & Sports"}
-{"image":"data/Activities & Sports/man_wrestling_3d.png","caption":"men wrestling (men, wrestle). Category of Activities & Sports"}
-{"image":"data/Activities & Sports/person_fencing_3d.png","caption":"person fencing (fencer, fencing, sword). Category of Activities & Sports"}
-{"image":"data/Activities & Sports/person_with_bunny_ears_3d.png","caption":"people with bunny ears (bunny ear, dancer, partying). Category of Activities & Sports"}
-{"image":"data/Activities & Sports/person_wrestling_3d.png","caption":"people wrestling (wrestle, wrestler). Category of Activities & Sports"}
-{"image":"data/Activities & Sports/skier_3d.png","caption":"skier (ski, snow). Category of Activities & Sports"}
-{"image":"data/Activities & Sports/woman_with_bunny_ears_3d.png","caption":"women with bunny ears (bunny ear, dancer, partying, women). Category of Activities & Sports"}
-{"image":"data/Activities & Sports/woman_wrestling_3d.png","caption":"women wrestling (women, wrestle). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/breast_feeding_color_dark.png","caption":"breast-feeding (baby, breast, nursing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/breast_feeding_color_default.png","caption":"breast-feeding (baby, breast, nursing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/breast_feeding_color_light.png","caption":"breast-feeding (baby, breast, nursing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/breast_feeding_color_medium.png","caption":"breast-feeding (baby, breast, nursing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/breast_feeding_color_medium-dark.png","caption":"breast-feeding (baby, breast, nursing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/breast_feeding_color_medium-light.png","caption":"breast-feeding (baby, breast, nursing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/horse_racing_color_dark.png","caption":"horse racing (horse, jockey, racehorse, racing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/horse_racing_color_default.png","caption":"horse racing (horse, jockey, racehorse, racing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/horse_racing_color_light.png","caption":"horse racing (horse, jockey, racehorse, racing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/horse_racing_color_medium.png","caption":"horse racing (horse, jockey, racehorse, racing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/horse_racing_color_medium-dark.png","caption":"horse racing (horse, jockey, racehorse, racing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/horse_racing_color_medium-light.png","caption":"horse racing (horse, jockey, racehorse, racing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_biking_color_dark.png","caption":"man biking (bicycle, biking, cyclist, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_biking_color_default.png","caption":"man biking (bicycle, biking, cyclist, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_biking_color_light.png","caption":"man biking (bicycle, biking, cyclist, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_biking_color_medium.png","caption":"man biking (bicycle, biking, cyclist, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_biking_color_medium-dark.png","caption":"man biking (bicycle, biking, cyclist, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_biking_color_medium-light.png","caption":"man biking (bicycle, biking, cyclist, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_bouncing_ball_color_dark.png","caption":"man bouncing ball (ball, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_bouncing_ball_color_default.png","caption":"man bouncing ball (ball, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_bouncing_ball_color_light.png","caption":"man bouncing ball (ball, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_bouncing_ball_color_medium.png","caption":"man bouncing ball (ball, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_bouncing_ball_color_medium-dark.png","caption":"man bouncing ball (ball, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_bouncing_ball_color_medium-light.png","caption":"man bouncing ball (ball, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_cartwheeling_color_dark.png","caption":"man cartwheeling (cartwheel, gymnastics, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_cartwheeling_color_default.png","caption":"man cartwheeling (cartwheel, gymnastics, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_cartwheeling_color_light.png","caption":"man cartwheeling (cartwheel, gymnastics, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_cartwheeling_color_medium.png","caption":"man cartwheeling (cartwheel, gymnastics, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_cartwheeling_color_medium-dark.png","caption":"man cartwheeling (cartwheel, gymnastics, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_cartwheeling_color_medium-light.png","caption":"man cartwheeling (cartwheel, gymnastics, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_climbing_color_dark.png","caption":"man climbing (climber). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_climbing_color_default.png","caption":"man climbing (climber). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_climbing_color_light.png","caption":"man climbing (climber). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_climbing_color_medium.png","caption":"man climbing (climber). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_climbing_color_medium-dark.png","caption":"man climbing (climber). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_climbing_color_medium-light.png","caption":"man climbing (climber). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_dancing_color_dark.png","caption":"man dancing (dance, dancing, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_dancing_color_default.png","caption":"man dancing (dance, dancing, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_dancing_color_light.png","caption":"man dancing (dance, dancing, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_dancing_color_medium.png","caption":"man dancing (dance, dancing, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_dancing_color_medium-dark.png","caption":"man dancing (dance, dancing, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_dancing_color_medium-light.png","caption":"man dancing (dance, dancing, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_feeding_baby_color_dark.png","caption":"man feeding baby (baby, feeding, man, nursing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_feeding_baby_color_default.png","caption":"man feeding baby (baby, feeding, man, nursing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_feeding_baby_color_light.png","caption":"man feeding baby (baby, feeding, man, nursing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_feeding_baby_color_medium.png","caption":"man feeding baby (baby, feeding, man, nursing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_feeding_baby_color_medium-dark.png","caption":"man feeding baby (baby, feeding, man, nursing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_feeding_baby_color_medium-light.png","caption":"man feeding baby (baby, feeding, man, nursing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_getting_haircut_color_dark.png","caption":"man getting haircut (haircut, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_getting_haircut_color_default.png","caption":"man getting haircut (haircut, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_getting_haircut_color_light.png","caption":"man getting haircut (haircut, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_getting_haircut_color_medium.png","caption":"man getting haircut (haircut, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_getting_haircut_color_medium-dark.png","caption":"man getting haircut (haircut, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_getting_haircut_color_medium-light.png","caption":"man getting haircut (haircut, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_getting_massage_color_dark.png","caption":"man getting massage (face, man, massage). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_getting_massage_color_default.png","caption":"man getting massage (face, man, massage). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_getting_massage_color_light.png","caption":"man getting massage (face, man, massage). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_getting_massage_color_medium.png","caption":"man getting massage (face, man, massage). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_getting_massage_color_medium-dark.png","caption":"man getting massage (face, man, massage). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_getting_massage_color_medium-light.png","caption":"man getting massage (face, man, massage). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_golfing_color_dark.png","caption":"man golfing (golf, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_golfing_color_default.png","caption":"man golfing (golf, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_golfing_color_light.png","caption":"man golfing (golf, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_golfing_color_medium.png","caption":"man golfing (golf, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_golfing_color_medium-dark.png","caption":"man golfing (golf, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_golfing_color_medium-light.png","caption":"man golfing (golf, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_lotus_position_color_dark.png","caption":"man in lotus position (meditation, yoga). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_lotus_position_color_default.png","caption":"man in lotus position (meditation, yoga). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_lotus_position_color_light.png","caption":"man in lotus position (meditation, yoga). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_lotus_position_color_medium.png","caption":"man in lotus position (meditation, yoga). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_lotus_position_color_medium-dark.png","caption":"man in lotus position (meditation, yoga). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_lotus_position_color_medium-light.png","caption":"man in lotus position (meditation, yoga). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_manual_wheelchair_color_dark.png","caption":"man in manual wheelchair (accessibility, man, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_manual_wheelchair_color_default.png","caption":"man in manual wheelchair (accessibility, man, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_manual_wheelchair_color_light.png","caption":"man in manual wheelchair (accessibility, man, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_manual_wheelchair_color_medium.png","caption":"man in manual wheelchair (accessibility, man, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_manual_wheelchair_color_medium-dark.png","caption":"man in manual wheelchair (accessibility, man, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_manual_wheelchair_color_medium-light.png","caption":"man in manual wheelchair (accessibility, man, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_manual_wheelchair_facing_right_color_dark.png","caption":"man in manual wheelchair facing right (accessibility, man, man in manual wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_manual_wheelchair_facing_right_color_default.png","caption":"man in manual wheelchair facing right (accessibility, man, man in manual wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_manual_wheelchair_facing_right_color_light.png","caption":"man in manual wheelchair facing right (accessibility, man, man in manual wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_manual_wheelchair_facing_right_color_medium.png","caption":"man in manual wheelchair facing right (accessibility, man, man in manual wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_manual_wheelchair_facing_right_color_medium-dark.png","caption":"man in manual wheelchair facing right (accessibility, man, man in manual wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_manual_wheelchair_facing_right_color_medium-light.png","caption":"man in manual wheelchair facing right (accessibility, man, man in manual wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_motorized_wheelchair_color_dark.png","caption":"man in motorized wheelchair (accessibility, man, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_motorized_wheelchair_color_default.png","caption":"man in motorized wheelchair (accessibility, man, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_motorized_wheelchair_color_light.png","caption":"man in motorized wheelchair (accessibility, man, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_motorized_wheelchair_color_medium.png","caption":"man in motorized wheelchair (accessibility, man, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_motorized_wheelchair_color_medium-dark.png","caption":"man in motorized wheelchair (accessibility, man, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_motorized_wheelchair_color_medium-light.png","caption":"man in motorized wheelchair (accessibility, man, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_motorized_wheelchair_facing_right_color_dark.png","caption":"man in motorized wheelchair facing right (accessibility, man, man in motorized wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_motorized_wheelchair_facing_right_color_default.png","caption":"man in motorized wheelchair facing right (accessibility, man, man in motorized wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_motorized_wheelchair_facing_right_color_light.png","caption":"man in motorized wheelchair facing right (accessibility, man, man in motorized wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_motorized_wheelchair_facing_right_color_medium.png","caption":"man in motorized wheelchair facing right (accessibility, man, man in motorized wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_motorized_wheelchair_facing_right_color_medium-dark.png","caption":"man in motorized wheelchair facing right (accessibility, man, man in motorized wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_motorized_wheelchair_facing_right_color_medium-light.png","caption":"man in motorized wheelchair facing right (accessibility, man, man in motorized wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_steamy_room_color_dark.png","caption":"man in steamy room (sauna, steam room). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_steamy_room_color_default.png","caption":"man in steamy room (sauna, steam room). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_steamy_room_color_light.png","caption":"man in steamy room (sauna, steam room). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_steamy_room_color_medium.png","caption":"man in steamy room (sauna, steam room). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_steamy_room_color_medium-dark.png","caption":"man in steamy room (sauna, steam room). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_in_steamy_room_color_medium-light.png","caption":"man in steamy room (sauna, steam room). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_juggling_color_dark.png","caption":"man juggling (juggling, man, multitask). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_juggling_color_default.png","caption":"man juggling (juggling, man, multitask). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_juggling_color_light.png","caption":"man juggling (juggling, man, multitask). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_juggling_color_medium.png","caption":"man juggling (juggling, man, multitask). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_juggling_color_medium-dark.png","caption":"man juggling (juggling, man, multitask). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_juggling_color_medium-light.png","caption":"man juggling (juggling, man, multitask). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_kneeling_color_dark.png","caption":"man kneeling (kneeling, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_kneeling_color_default.png","caption":"man kneeling (kneeling, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_kneeling_color_light.png","caption":"man kneeling (kneeling, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_kneeling_color_medium.png","caption":"man kneeling (kneeling, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_kneeling_color_medium-dark.png","caption":"man kneeling (kneeling, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_kneeling_color_medium-light.png","caption":"man kneeling (kneeling, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_kneeling_facing_right_color_dark.png","caption":"man kneeling facing right (kneeling, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_kneeling_facing_right_color_default.png","caption":"man kneeling facing right (kneeling, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_kneeling_facing_right_color_light.png","caption":"man kneeling facing right (kneeling, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_kneeling_facing_right_color_medium.png","caption":"man kneeling facing right (kneeling, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_kneeling_facing_right_color_medium-dark.png","caption":"man kneeling facing right (kneeling, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_kneeling_facing_right_color_medium-light.png","caption":"man kneeling facing right (kneeling, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_lifting_weights_color_dark.png","caption":"man lifting weights (man, weight lifter). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_lifting_weights_color_default.png","caption":"man lifting weights (man, weight lifter). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_lifting_weights_color_light.png","caption":"man lifting weights (man, weight lifter). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_lifting_weights_color_medium.png","caption":"man lifting weights (man, weight lifter). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_lifting_weights_color_medium-dark.png","caption":"man lifting weights (man, weight lifter). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_lifting_weights_color_medium-light.png","caption":"man lifting weights (man, weight lifter). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_mountain_biking_color_dark.png","caption":"man mountain biking (bicycle, bike, cyclist, man, mountain). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_mountain_biking_color_default.png","caption":"man mountain biking (bicycle, bike, cyclist, man, mountain). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_mountain_biking_color_light.png","caption":"man mountain biking (bicycle, bike, cyclist, man, mountain). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_mountain_biking_color_medium.png","caption":"man mountain biking (bicycle, bike, cyclist, man, mountain). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_mountain_biking_color_medium-dark.png","caption":"man mountain biking (bicycle, bike, cyclist, man, mountain). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_mountain_biking_color_medium-light.png","caption":"man mountain biking (bicycle, bike, cyclist, man, mountain). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_playing_handball_color_dark.png","caption":"man playing handball (handball, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_playing_handball_color_default.png","caption":"man playing handball (handball, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_playing_handball_color_light.png","caption":"man playing handball (handball, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_playing_handball_color_medium.png","caption":"man playing handball (handball, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_playing_handball_color_medium-dark.png","caption":"man playing handball (handball, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_playing_handball_color_medium-light.png","caption":"man playing handball (handball, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_playing_water_polo_color_dark.png","caption":"man playing water polo (man, water polo). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_playing_water_polo_color_default.png","caption":"man playing water polo (man, water polo). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_playing_water_polo_color_light.png","caption":"man playing water polo (man, water polo). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_playing_water_polo_color_medium.png","caption":"man playing water polo (man, water polo). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_playing_water_polo_color_medium-dark.png","caption":"man playing water polo (man, water polo). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_playing_water_polo_color_medium-light.png","caption":"man playing water polo (man, water polo). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_rowing_boat_color_dark.png","caption":"man rowing boat (boat, man, rowboat). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_rowing_boat_color_default.png","caption":"man rowing boat (boat, man, rowboat). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_rowing_boat_color_light.png","caption":"man rowing boat (boat, man, rowboat). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_rowing_boat_color_medium.png","caption":"man rowing boat (boat, man, rowboat). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_rowing_boat_color_medium-dark.png","caption":"man rowing boat (boat, man, rowboat). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_rowing_boat_color_medium-light.png","caption":"man rowing boat (boat, man, rowboat). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_running_color_dark.png","caption":"man running (man, marathon, racing, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_running_color_default.png","caption":"man running (man, marathon, racing, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_running_color_light.png","caption":"man running (man, marathon, racing, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_running_color_medium.png","caption":"man running (man, marathon, racing, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_running_color_medium-dark.png","caption":"man running (man, marathon, racing, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_running_color_medium-light.png","caption":"man running (man, marathon, racing, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_running_facing_right_color_dark.png","caption":"man running facing right (man, marathon, racing, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_running_facing_right_color_default.png","caption":"man running facing right (man, marathon, racing, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_running_facing_right_color_light.png","caption":"man running facing right (man, marathon, racing, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_running_facing_right_color_medium.png","caption":"man running facing right (man, marathon, racing, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_running_facing_right_color_medium-dark.png","caption":"man running facing right (man, marathon, racing, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_running_facing_right_color_medium-light.png","caption":"man running facing right (man, marathon, racing, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_standing_color_dark.png","caption":"man standing (man, standing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_standing_color_default.png","caption":"man standing (man, standing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_standing_color_light.png","caption":"man standing (man, standing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_standing_color_medium.png","caption":"man standing (man, standing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_standing_color_medium-dark.png","caption":"man standing (man, standing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_standing_color_medium-light.png","caption":"man standing (man, standing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_surfing_color_dark.png","caption":"man surfing (man, surfing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_surfing_color_default.png","caption":"man surfing (man, surfing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_surfing_color_light.png","caption":"man surfing (man, surfing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_surfing_color_medium.png","caption":"man surfing (man, surfing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_surfing_color_medium-dark.png","caption":"man surfing (man, surfing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_surfing_color_medium-light.png","caption":"man surfing (man, surfing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_swimming_color_dark.png","caption":"man swimming (man, swim). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_swimming_color_default.png","caption":"man swimming (man, swim). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_swimming_color_light.png","caption":"man swimming (man, swim). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_swimming_color_medium.png","caption":"man swimming (man, swim). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_swimming_color_medium-dark.png","caption":"man swimming (man, swim). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_swimming_color_medium-light.png","caption":"man swimming (man, swim). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_walking_color_dark.png","caption":"man walking (hike, man, walk). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_walking_color_default.png","caption":"man walking (hike, man, walk). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_walking_color_light.png","caption":"man walking (hike, man, walk). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_walking_color_medium.png","caption":"man walking (hike, man, walk). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_walking_color_medium-dark.png","caption":"man walking (hike, man, walk). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_walking_color_medium-light.png","caption":"man walking (hike, man, walk). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_walking_facing_right_color_dark.png","caption":"man walking facing right (hike, man, man walking, walk). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_walking_facing_right_color_default.png","caption":"man walking facing right (hike, man, man walking, walk). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_walking_facing_right_color_light.png","caption":"man walking facing right (hike, man, man walking, walk). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_walking_facing_right_color_medium.png","caption":"man walking facing right (hike, man, man walking, walk). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_walking_facing_right_color_medium-dark.png","caption":"man walking facing right (hike, man, man walking, walk). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_walking_facing_right_color_medium-light.png","caption":"man walking facing right (hike, man, man walking, walk). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_with_bunny_ears_color.png","caption":"men with bunny ears (bunny ear, dancer, men, partying). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_with_white_cane_color_dark.png","caption":"man with white cane (accessibility, blind, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_with_white_cane_color_default.png","caption":"man with white cane (accessibility, blind, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_with_white_cane_color_light.png","caption":"man with white cane (accessibility, blind, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_with_white_cane_color_medium.png","caption":"man with white cane (accessibility, blind, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_with_white_cane_color_medium-dark.png","caption":"man with white cane (accessibility, blind, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_with_white_cane_color_medium-light.png","caption":"man with white cane (accessibility, blind, man). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_with_white_cane_facing_right_color_dark.png","caption":"man with white cane facing right (accessibility, blind, man, man with white cane). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_with_white_cane_facing_right_color_default.png","caption":"man with white cane facing right (accessibility, blind, man, man with white cane). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_with_white_cane_facing_right_color_light.png","caption":"man with white cane facing right (accessibility, blind, man, man with white cane). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_with_white_cane_facing_right_color_medium.png","caption":"man with white cane facing right (accessibility, blind, man, man with white cane). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_with_white_cane_facing_right_color_medium-dark.png","caption":"man with white cane facing right (accessibility, blind, man, man with white cane). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_with_white_cane_facing_right_color_medium-light.png","caption":"man with white cane facing right (accessibility, blind, man, man with white cane). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/man_wrestling_color.png","caption":"men wrestling (men, wrestle). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_biking_color_dark.png","caption":"person biking (bicycle, biking, cyclist). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_biking_color_default.png","caption":"person biking (bicycle, biking, cyclist). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_biking_color_light.png","caption":"person biking (bicycle, biking, cyclist). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_biking_color_medium.png","caption":"person biking (bicycle, biking, cyclist). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_biking_color_medium-dark.png","caption":"person biking (bicycle, biking, cyclist). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_biking_color_medium-light.png","caption":"person biking (bicycle, biking, cyclist). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_bouncing_ball_color_dark.png","caption":"person bouncing ball (ball). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_bouncing_ball_color_default.png","caption":"person bouncing ball (ball). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_bouncing_ball_color_light.png","caption":"person bouncing ball (ball). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_bouncing_ball_color_medium.png","caption":"person bouncing ball (ball). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_bouncing_ball_color_medium-dark.png","caption":"person bouncing ball (ball). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_bouncing_ball_color_medium-light.png","caption":"person bouncing ball (ball). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_cartwheeling_color_dark.png","caption":"person cartwheeling (cartwheel, gymnastics). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_cartwheeling_color_default.png","caption":"person cartwheeling (cartwheel, gymnastics). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_cartwheeling_color_light.png","caption":"person cartwheeling (cartwheel, gymnastics). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_cartwheeling_color_medium.png","caption":"person cartwheeling (cartwheel, gymnastics). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_cartwheeling_color_medium-dark.png","caption":"person cartwheeling (cartwheel, gymnastics). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_cartwheeling_color_medium-light.png","caption":"person cartwheeling (cartwheel, gymnastics). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_climbing_color_dark.png","caption":"person climbing (climber). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_climbing_color_default.png","caption":"person climbing (climber). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_climbing_color_light.png","caption":"person climbing (climber). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_climbing_color_medium.png","caption":"person climbing (climber). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_climbing_color_medium-dark.png","caption":"person climbing (climber). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_climbing_color_medium-light.png","caption":"person climbing (climber). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_feeding_baby_color_dark.png","caption":"person feeding baby (baby, feeding, nursing, person). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_feeding_baby_color_default.png","caption":"person feeding baby (baby, feeding, nursing, person). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_feeding_baby_color_light.png","caption":"person feeding baby (baby, feeding, nursing, person). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_feeding_baby_color_medium.png","caption":"person feeding baby (baby, feeding, nursing, person). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_feeding_baby_color_medium-dark.png","caption":"person feeding baby (baby, feeding, nursing, person). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_feeding_baby_color_medium-light.png","caption":"person feeding baby (baby, feeding, nursing, person). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_fencing_color.png","caption":"person fencing (fencer, fencing, sword). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_getting_haircut_color_dark.png","caption":"person getting haircut (barber, beauty, haircut, parlor). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_getting_haircut_color_default.png","caption":"person getting haircut (barber, beauty, haircut, parlor). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_getting_haircut_color_light.png","caption":"person getting haircut (barber, beauty, haircut, parlor). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_getting_haircut_color_medium.png","caption":"person getting haircut (barber, beauty, haircut, parlor). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_getting_haircut_color_medium-dark.png","caption":"person getting haircut (barber, beauty, haircut, parlor). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_getting_haircut_color_medium-light.png","caption":"person getting haircut (barber, beauty, haircut, parlor). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_getting_massage_color_dark.png","caption":"person getting massage (face, massage, salon). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_getting_massage_color_default.png","caption":"person getting massage (face, massage, salon). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_getting_massage_color_light.png","caption":"person getting massage (face, massage, salon). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_getting_massage_color_medium.png","caption":"person getting massage (face, massage, salon). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_getting_massage_color_medium-dark.png","caption":"person getting massage (face, massage, salon). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_getting_massage_color_medium-light.png","caption":"person getting massage (face, massage, salon). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_golfing_color_dark.png","caption":"person golfing (ball, golf). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_golfing_color_default.png","caption":"person golfing (ball, golf). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_golfing_color_light.png","caption":"person golfing (ball, golf). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_golfing_color_medium.png","caption":"person golfing (ball, golf). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_golfing_color_medium-dark.png","caption":"person golfing (ball, golf). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_golfing_color_medium-light.png","caption":"person golfing (ball, golf). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_bed_color_dark.png","caption":"person in bed (hotel, sleep). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_bed_color_default.png","caption":"person in bed (hotel, sleep). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_bed_color_light.png","caption":"person in bed (hotel, sleep). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_bed_color_medium.png","caption":"person in bed (hotel, sleep). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_bed_color_medium-dark.png","caption":"person in bed (hotel, sleep). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_bed_color_medium-light.png","caption":"person in bed (hotel, sleep). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_lotus_position_color_dark.png","caption":"person in lotus position (meditation, yoga). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_lotus_position_color_default.png","caption":"person in lotus position (meditation, yoga). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_lotus_position_color_light.png","caption":"person in lotus position (meditation, yoga). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_lotus_position_color_medium.png","caption":"person in lotus position (meditation, yoga). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_lotus_position_color_medium-dark.png","caption":"person in lotus position (meditation, yoga). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_lotus_position_color_medium-light.png","caption":"person in lotus position (meditation, yoga). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_manual_wheelchair_color_dark.png","caption":"person in manual wheelchair (accessibility, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_manual_wheelchair_color_default.png","caption":"person in manual wheelchair (accessibility, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_manual_wheelchair_color_light.png","caption":"person in manual wheelchair (accessibility, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_manual_wheelchair_color_medium.png","caption":"person in manual wheelchair (accessibility, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_manual_wheelchair_color_medium-dark.png","caption":"person in manual wheelchair (accessibility, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_manual_wheelchair_color_medium-light.png","caption":"person in manual wheelchair (accessibility, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_manual_wheelchair_facing_right_color_dark.png","caption":"person in manual wheelchair facing right (accessibility, person in manual wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_manual_wheelchair_facing_right_color_default.png","caption":"person in manual wheelchair facing right (accessibility, person in manual wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_manual_wheelchair_facing_right_color_light.png","caption":"person in manual wheelchair facing right (accessibility, person in manual wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_manual_wheelchair_facing_right_color_medium.png","caption":"person in manual wheelchair facing right (accessibility, person in manual wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_manual_wheelchair_facing_right_color_medium-dark.png","caption":"person in manual wheelchair facing right (accessibility, person in manual wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_manual_wheelchair_facing_right_color_medium-light.png","caption":"person in manual wheelchair facing right (accessibility, person in manual wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_motorized_wheelchair_color_dark.png","caption":"person in motorized wheelchair (accessibility, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_motorized_wheelchair_color_default.png","caption":"person in motorized wheelchair (accessibility, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_motorized_wheelchair_color_light.png","caption":"person in motorized wheelchair (accessibility, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_motorized_wheelchair_color_medium.png","caption":"person in motorized wheelchair (accessibility, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_motorized_wheelchair_color_medium-dark.png","caption":"person in motorized wheelchair (accessibility, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_motorized_wheelchair_color_medium-light.png","caption":"person in motorized wheelchair (accessibility, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_motorized_wheelchair_facing_right_color_dark.png","caption":"person in motorized wheelchair facing right (accessibility, person in motorized wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_motorized_wheelchair_facing_right_color_default.png","caption":"person in motorized wheelchair facing right (accessibility, person in motorized wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_motorized_wheelchair_facing_right_color_light.png","caption":"person in motorized wheelchair facing right (accessibility, person in motorized wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_motorized_wheelchair_facing_right_color_medium.png","caption":"person in motorized wheelchair facing right (accessibility, person in motorized wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_motorized_wheelchair_facing_right_color_medium-dark.png","caption":"person in motorized wheelchair facing right (accessibility, person in motorized wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_motorized_wheelchair_facing_right_color_medium-light.png","caption":"person in motorized wheelchair facing right (accessibility, person in motorized wheelchair, wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_steamy_room_color_dark.png","caption":"person in steamy room (sauna, steam room). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_steamy_room_color_default.png","caption":"person in steamy room (sauna, steam room). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_steamy_room_color_light.png","caption":"person in steamy room (sauna, steam room). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_steamy_room_color_medium.png","caption":"person in steamy room (sauna, steam room). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_steamy_room_color_medium-dark.png","caption":"person in steamy room (sauna, steam room). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_steamy_room_color_medium-light.png","caption":"person in steamy room (sauna, steam room). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_suit_levitating_color_dark.png","caption":"person in suit levitating (business, person, suit). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_suit_levitating_color_default.png","caption":"person in suit levitating (business, person, suit). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_suit_levitating_color_light.png","caption":"person in suit levitating (business, person, suit). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_suit_levitating_color_medium.png","caption":"person in suit levitating (business, person, suit). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_suit_levitating_color_medium-dark.png","caption":"person in suit levitating (business, person, suit). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_in_suit_levitating_color_medium-light.png","caption":"person in suit levitating (business, person, suit). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_juggling_color_dark.png","caption":"person juggling (balance, juggle, multitask, skill). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_juggling_color_default.png","caption":"person juggling (balance, juggle, multitask, skill). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_juggling_color_light.png","caption":"person juggling (balance, juggle, multitask, skill). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_juggling_color_medium.png","caption":"person juggling (balance, juggle, multitask, skill). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_juggling_color_medium-dark.png","caption":"person juggling (balance, juggle, multitask, skill). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_juggling_color_medium-light.png","caption":"person juggling (balance, juggle, multitask, skill). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_kneeling_color_dark.png","caption":"person kneeling (kneel, kneeling). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_kneeling_color_default.png","caption":"person kneeling (kneel, kneeling). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_kneeling_color_light.png","caption":"person kneeling (kneel, kneeling). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_kneeling_color_medium.png","caption":"person kneeling (kneel, kneeling). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_kneeling_color_medium-dark.png","caption":"person kneeling (kneel, kneeling). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_kneeling_color_medium-light.png","caption":"person kneeling (kneel, kneeling). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_kneeling_facing_right_color_dark.png","caption":"person kneeling facing right (kneel, kneeling, person kneeling). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_kneeling_facing_right_color_default.png","caption":"person kneeling facing right (kneel, kneeling, person kneeling). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_kneeling_facing_right_color_light.png","caption":"person kneeling facing right (kneel, kneeling, person kneeling). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_kneeling_facing_right_color_medium.png","caption":"person kneeling facing right (kneel, kneeling, person kneeling). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_kneeling_facing_right_color_medium-dark.png","caption":"person kneeling facing right (kneel, kneeling, person kneeling). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_kneeling_facing_right_color_medium-light.png","caption":"person kneeling facing right (kneel, kneeling, person kneeling). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_lifting_weights_color_dark.png","caption":"person lifting weights (lifter, weight). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_lifting_weights_color_default.png","caption":"person lifting weights (lifter, weight). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_lifting_weights_color_light.png","caption":"person lifting weights (lifter, weight). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_lifting_weights_color_medium.png","caption":"person lifting weights (lifter, weight). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_lifting_weights_color_medium-dark.png","caption":"person lifting weights (lifter, weight). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_lifting_weights_color_medium-light.png","caption":"person lifting weights (lifter, weight). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_mountain_biking_color_dark.png","caption":"person mountain biking (bicycle, bicyclist, bike, cyclist, mountain). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_mountain_biking_color_default.png","caption":"person mountain biking (bicycle, bicyclist, bike, cyclist, mountain). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_mountain_biking_color_light.png","caption":"person mountain biking (bicycle, bicyclist, bike, cyclist, mountain). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_mountain_biking_color_medium.png","caption":"person mountain biking (bicycle, bicyclist, bike, cyclist, mountain). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_mountain_biking_color_medium-dark.png","caption":"person mountain biking (bicycle, bicyclist, bike, cyclist, mountain). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_mountain_biking_color_medium-light.png","caption":"person mountain biking (bicycle, bicyclist, bike, cyclist, mountain). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_playing_handball_color_dark.png","caption":"person playing handball (ball, handball). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_playing_handball_color_default.png","caption":"person playing handball (ball, handball). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_playing_handball_color_light.png","caption":"person playing handball (ball, handball). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_playing_handball_color_medium.png","caption":"person playing handball (ball, handball). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_playing_handball_color_medium-dark.png","caption":"person playing handball (ball, handball). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_playing_handball_color_medium-light.png","caption":"person playing handball (ball, handball). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_playing_water_polo_color_dark.png","caption":"person playing water polo (polo, water). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_playing_water_polo_color_default.png","caption":"person playing water polo (polo, water). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_playing_water_polo_color_light.png","caption":"person playing water polo (polo, water). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_playing_water_polo_color_medium.png","caption":"person playing water polo (polo, water). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_playing_water_polo_color_medium-dark.png","caption":"person playing water polo (polo, water). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_playing_water_polo_color_medium-light.png","caption":"person playing water polo (polo, water). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_rowing_boat_color_dark.png","caption":"person rowing boat (boat, rowboat). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_rowing_boat_color_default.png","caption":"person rowing boat (boat, rowboat). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_rowing_boat_color_light.png","caption":"person rowing boat (boat, rowboat). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_rowing_boat_color_medium.png","caption":"person rowing boat (boat, rowboat). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_rowing_boat_color_medium-dark.png","caption":"person rowing boat (boat, rowboat). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_rowing_boat_color_medium-light.png","caption":"person rowing boat (boat, rowboat). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_running_color_dark.png","caption":"person running (marathon, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_running_color_default.png","caption":"person running (marathon, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_running_color_light.png","caption":"person running (marathon, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_running_color_medium.png","caption":"person running (marathon, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_running_color_medium-dark.png","caption":"person running (marathon, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_running_color_medium-light.png","caption":"person running (marathon, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_running_facing_right_color_dark.png","caption":"person running facing right (marathon, person running, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_running_facing_right_color_default.png","caption":"person running facing right (marathon, person running, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_running_facing_right_color_light.png","caption":"person running facing right (marathon, person running, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_running_facing_right_color_medium.png","caption":"person running facing right (marathon, person running, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_running_facing_right_color_medium-dark.png","caption":"person running facing right (marathon, person running, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_running_facing_right_color_medium-light.png","caption":"person running facing right (marathon, person running, running). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_standing_color_dark.png","caption":"person standing (stand, standing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_standing_color_default.png","caption":"person standing (stand, standing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_standing_color_light.png","caption":"person standing (stand, standing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_standing_color_medium.png","caption":"person standing (stand, standing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_standing_color_medium-dark.png","caption":"person standing (stand, standing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_standing_color_medium-light.png","caption":"person standing (stand, standing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_surfing_color_dark.png","caption":"person surfing (surfing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_surfing_color_default.png","caption":"person surfing (surfing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_surfing_color_light.png","caption":"person surfing (surfing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_surfing_color_medium.png","caption":"person surfing (surfing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_surfing_color_medium-dark.png","caption":"person surfing (surfing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_surfing_color_medium-light.png","caption":"person surfing (surfing). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_swimming_color_dark.png","caption":"person swimming (swim). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_swimming_color_default.png","caption":"person swimming (swim). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_swimming_color_light.png","caption":"person swimming (swim). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_swimming_color_medium.png","caption":"person swimming (swim). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_swimming_color_medium-dark.png","caption":"person swimming (swim). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_swimming_color_medium-light.png","caption":"person swimming (swim). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_taking_bath_color_dark.png","caption":"person taking bath (bath, bathtub). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_taking_bath_color_default.png","caption":"person taking bath (bath, bathtub). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_taking_bath_color_light.png","caption":"person taking bath (bath, bathtub). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_taking_bath_color_medium.png","caption":"person taking bath (bath, bathtub). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_taking_bath_color_medium-dark.png","caption":"person taking bath (bath, bathtub). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_taking_bath_color_medium-light.png","caption":"person taking bath (bath, bathtub). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_walking_color_dark.png","caption":"person walking (hike, walk, walking). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_walking_color_default.png","caption":"person walking (hike, walk, walking). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_walking_color_light.png","caption":"person walking (hike, walk, walking). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_walking_color_medium.png","caption":"person walking (hike, walk, walking). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_walking_color_medium-dark.png","caption":"person walking (hike, walk, walking). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_walking_color_medium-light.png","caption":"person walking (hike, walk, walking). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_walking_facing_right_color_dark.png","caption":"person walking facing right (hike, person walking, walk, walking). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_walking_facing_right_color_default.png","caption":"person walking facing right (hike, person walking, walk, walking). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_walking_facing_right_color_light.png","caption":"person walking facing right (hike, person walking, walk, walking). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_walking_facing_right_color_medium.png","caption":"person walking facing right (hike, person walking, walk, walking). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_walking_facing_right_color_medium-dark.png","caption":"person walking facing right (hike, person walking, walk, walking). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_walking_facing_right_color_medium-light.png","caption":"person walking facing right (hike, person walking, walk, walking). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_with_bunny_ears_color.png","caption":"people with bunny ears (bunny ear, dancer, partying). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_with_white_cane_color_dark.png","caption":"person with white cane (accessibility, blind). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_with_white_cane_color_default.png","caption":"person with white cane (accessibility, blind). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_with_white_cane_color_light.png","caption":"person with white cane (accessibility, blind). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_with_white_cane_color_medium.png","caption":"person with white cane (accessibility, blind). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_with_white_cane_color_medium-dark.png","caption":"person with white cane (accessibility, blind). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_with_white_cane_color_medium-light.png","caption":"person with white cane (accessibility, blind). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_with_white_cane_facing_right_color_dark.png","caption":"person with white cane facing right (accessibility, blind, person with white cane). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_with_white_cane_facing_right_color_default.png","caption":"person with white cane facing right (accessibility, blind, person with white cane). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_with_white_cane_facing_right_color_light.png","caption":"person with white cane facing right (accessibility, blind, person with white cane). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_with_white_cane_facing_right_color_medium.png","caption":"person with white cane facing right (accessibility, blind, person with white cane). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_with_white_cane_facing_right_color_medium-dark.png","caption":"person with white cane facing right (accessibility, blind, person with white cane). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_with_white_cane_facing_right_color_medium-light.png","caption":"person with white cane facing right (accessibility, blind, person with white cane). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/person_wrestling_color.png","caption":"people wrestling (wrestle, wrestler). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/skier_color.png","caption":"skier (ski, snow). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/snowboarder_color_dark.png","caption":"snowboarder (ski, snow, snowboard). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/snowboarder_color_default.png","caption":"snowboarder (ski, snow, snowboard). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/snowboarder_color_light.png","caption":"snowboarder (ski, snow, snowboard). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/snowboarder_color_medium.png","caption":"snowboarder (ski, snow, snowboard). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/snowboarder_color_medium-dark.png","caption":"snowboarder (ski, snow, snowboard). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/snowboarder_color_medium-light.png","caption":"snowboarder (ski, snow, snowboard). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_biking_color_dark.png","caption":"woman biking (bicycle, biking, cyclist, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_biking_color_default.png","caption":"woman biking (bicycle, biking, cyclist, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_biking_color_light.png","caption":"woman biking (bicycle, biking, cyclist, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_biking_color_medium.png","caption":"woman biking (bicycle, biking, cyclist, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_biking_color_medium-dark.png","caption":"woman biking (bicycle, biking, cyclist, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_biking_color_medium-light.png","caption":"woman biking (bicycle, biking, cyclist, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_bouncing_ball_color_dark.png","caption":"woman bouncing ball (ball, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_bouncing_ball_color_default.png","caption":"woman bouncing ball (ball, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_bouncing_ball_color_light.png","caption":"woman bouncing ball (ball, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_bouncing_ball_color_medium.png","caption":"woman bouncing ball (ball, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_bouncing_ball_color_medium-dark.png","caption":"woman bouncing ball (ball, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_bouncing_ball_color_medium-light.png","caption":"woman bouncing ball (ball, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_cartwheeling_color_dark.png","caption":"woman cartwheeling (cartwheel, gymnastics, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_cartwheeling_color_default.png","caption":"woman cartwheeling (cartwheel, gymnastics, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_cartwheeling_color_light.png","caption":"woman cartwheeling (cartwheel, gymnastics, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_cartwheeling_color_medium.png","caption":"woman cartwheeling (cartwheel, gymnastics, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_cartwheeling_color_medium-dark.png","caption":"woman cartwheeling (cartwheel, gymnastics, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_cartwheeling_color_medium-light.png","caption":"woman cartwheeling (cartwheel, gymnastics, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_climbing_color_dark.png","caption":"woman climbing (climber). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_climbing_color_default.png","caption":"woman climbing (climber). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_climbing_color_light.png","caption":"woman climbing (climber). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_climbing_color_medium.png","caption":"woman climbing (climber). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_climbing_color_medium-dark.png","caption":"woman climbing (climber). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_climbing_color_medium-light.png","caption":"woman climbing (climber). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_dancing_color_dark.png","caption":"woman dancing (dance, dancing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_dancing_color_default.png","caption":"woman dancing (dance, dancing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_dancing_color_light.png","caption":"woman dancing (dance, dancing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_dancing_color_medium.png","caption":"woman dancing (dance, dancing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_dancing_color_medium-dark.png","caption":"woman dancing (dance, dancing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_dancing_color_medium-light.png","caption":"woman dancing (dance, dancing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_feeding_baby_color_dark.png","caption":"woman feeding baby (baby, feeding, nursing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_feeding_baby_color_default.png","caption":"woman feeding baby (baby, feeding, nursing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_feeding_baby_color_light.png","caption":"woman feeding baby (baby, feeding, nursing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_feeding_baby_color_medium.png","caption":"woman feeding baby (baby, feeding, nursing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_feeding_baby_color_medium-dark.png","caption":"woman feeding baby (baby, feeding, nursing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_feeding_baby_color_medium-light.png","caption":"woman feeding baby (baby, feeding, nursing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_getting_haircut_color_dark.png","caption":"woman getting haircut (haircut, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_getting_haircut_color_default.png","caption":"woman getting haircut (haircut, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_getting_haircut_color_light.png","caption":"woman getting haircut (haircut, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_getting_haircut_color_medium.png","caption":"woman getting haircut (haircut, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_getting_haircut_color_medium-dark.png","caption":"woman getting haircut (haircut, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_getting_haircut_color_medium-light.png","caption":"woman getting haircut (haircut, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_getting_massage_color_dark.png","caption":"woman getting massage (face, massage, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_getting_massage_color_default.png","caption":"woman getting massage (face, massage, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_getting_massage_color_light.png","caption":"woman getting massage (face, massage, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_getting_massage_color_medium.png","caption":"woman getting massage (face, massage, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_getting_massage_color_medium-dark.png","caption":"woman getting massage (face, massage, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_getting_massage_color_medium-light.png","caption":"woman getting massage (face, massage, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_golfing_color_dark.png","caption":"woman golfing (golf, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_golfing_color_default.png","caption":"woman golfing (golf, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_golfing_color_light.png","caption":"woman golfing (golf, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_golfing_color_medium.png","caption":"woman golfing (golf, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_golfing_color_medium-dark.png","caption":"woman golfing (golf, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_golfing_color_medium-light.png","caption":"woman golfing (golf, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_lotus_position_color_dark.png","caption":"woman in lotus position (meditation, yoga). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_lotus_position_color_default.png","caption":"woman in lotus position (meditation, yoga). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_lotus_position_color_light.png","caption":"woman in lotus position (meditation, yoga). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_lotus_position_color_medium.png","caption":"woman in lotus position (meditation, yoga). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_lotus_position_color_medium-dark.png","caption":"woman in lotus position (meditation, yoga). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_lotus_position_color_medium-light.png","caption":"woman in lotus position (meditation, yoga). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_manual_wheelchair_color_dark.png","caption":"woman in manual wheelchair (accessibility, wheelchair, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_manual_wheelchair_color_default.png","caption":"woman in manual wheelchair (accessibility, wheelchair, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_manual_wheelchair_color_light.png","caption":"woman in manual wheelchair (accessibility, wheelchair, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_manual_wheelchair_color_medium.png","caption":"woman in manual wheelchair (accessibility, wheelchair, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_manual_wheelchair_color_medium-dark.png","caption":"woman in manual wheelchair (accessibility, wheelchair, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_manual_wheelchair_color_medium-light.png","caption":"woman in manual wheelchair (accessibility, wheelchair, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_manual_wheelchair_facing_right_color_dark.png","caption":"woman in manual wheelchair facing right (accessibility, wheelchair, woman, woman in manual wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_manual_wheelchair_facing_right_color_default.png","caption":"woman in manual wheelchair facing right (accessibility, wheelchair, woman, woman in manual wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_manual_wheelchair_facing_right_color_light.png","caption":"woman in manual wheelchair facing right (accessibility, wheelchair, woman, woman in manual wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_manual_wheelchair_facing_right_color_medium.png","caption":"woman in manual wheelchair facing right (accessibility, wheelchair, woman, woman in manual wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_manual_wheelchair_facing_right_color_medium-dark.png","caption":"woman in manual wheelchair facing right (accessibility, wheelchair, woman, woman in manual wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_manual_wheelchair_facing_right_color_medium-light.png","caption":"woman in manual wheelchair facing right (accessibility, wheelchair, woman, woman in manual wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_motorized_wheelchair_color_dark.png","caption":"woman in motorized wheelchair (accessibility, wheelchair, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_motorized_wheelchair_color_default.png","caption":"woman in motorized wheelchair (accessibility, wheelchair, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_motorized_wheelchair_color_light.png","caption":"woman in motorized wheelchair (accessibility, wheelchair, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_motorized_wheelchair_color_medium.png","caption":"woman in motorized wheelchair (accessibility, wheelchair, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_motorized_wheelchair_color_medium-dark.png","caption":"woman in motorized wheelchair (accessibility, wheelchair, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_motorized_wheelchair_color_medium-light.png","caption":"woman in motorized wheelchair (accessibility, wheelchair, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_motorized_wheelchair_facing_right_color_dark.png","caption":"woman in motorized wheelchair facing right (accessibility, wheelchair, woman, woman in motorized wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_motorized_wheelchair_facing_right_color_default.png","caption":"woman in motorized wheelchair facing right (accessibility, wheelchair, woman, woman in motorized wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_motorized_wheelchair_facing_right_color_light.png","caption":"woman in motorized wheelchair facing right (accessibility, wheelchair, woman, woman in motorized wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_motorized_wheelchair_facing_right_color_medium.png","caption":"woman in motorized wheelchair facing right (accessibility, wheelchair, woman, woman in motorized wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_motorized_wheelchair_facing_right_color_medium-dark.png","caption":"woman in motorized wheelchair facing right (accessibility, wheelchair, woman, woman in motorized wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_motorized_wheelchair_facing_right_color_medium-light.png","caption":"woman in motorized wheelchair facing right (accessibility, wheelchair, woman, woman in motorized wheelchair). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_steamy_room_color_dark.png","caption":"woman in steamy room (sauna, steam room). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_steamy_room_color_default.png","caption":"woman in steamy room (sauna, steam room). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_steamy_room_color_light.png","caption":"woman in steamy room (sauna, steam room). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_steamy_room_color_medium.png","caption":"woman in steamy room (sauna, steam room). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_steamy_room_color_medium-dark.png","caption":"woman in steamy room (sauna, steam room). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_in_steamy_room_color_medium-light.png","caption":"woman in steamy room (sauna, steam room). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_juggling_color_dark.png","caption":"woman juggling (juggling, multitask, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_juggling_color_default.png","caption":"woman juggling (juggling, multitask, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_juggling_color_light.png","caption":"woman juggling (juggling, multitask, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_juggling_color_medium.png","caption":"woman juggling (juggling, multitask, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_juggling_color_medium-dark.png","caption":"woman juggling (juggling, multitask, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_juggling_color_medium-light.png","caption":"woman juggling (juggling, multitask, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_kneeling_color_dark.png","caption":"woman kneeling (kneeling, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_kneeling_color_default.png","caption":"woman kneeling (kneeling, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_kneeling_color_light.png","caption":"woman kneeling (kneeling, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_kneeling_color_medium.png","caption":"woman kneeling (kneeling, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_kneeling_color_medium-dark.png","caption":"woman kneeling (kneeling, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_kneeling_color_medium-light.png","caption":"woman kneeling (kneeling, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_kneeling_facing_right_color_dark.png","caption":"woman kneeling facing right (kneeling, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_kneeling_facing_right_color_default.png","caption":"woman kneeling facing right (kneeling, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_kneeling_facing_right_color_light.png","caption":"woman kneeling facing right (kneeling, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_kneeling_facing_right_color_medium.png","caption":"woman kneeling facing right (kneeling, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_kneeling_facing_right_color_medium-dark.png","caption":"woman kneeling facing right (kneeling, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_kneeling_facing_right_color_medium-light.png","caption":"woman kneeling facing right (kneeling, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_lifting_weights_color_dark.png","caption":"woman lifting weights (weight lifter, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_lifting_weights_color_default.png","caption":"woman lifting weights (weight lifter, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_lifting_weights_color_light.png","caption":"woman lifting weights (weight lifter, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_lifting_weights_color_medium.png","caption":"woman lifting weights (weight lifter, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_lifting_weights_color_medium-dark.png","caption":"woman lifting weights (weight lifter, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_lifting_weights_color_medium-light.png","caption":"woman lifting weights (weight lifter, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_mountain_biking_color_dark.png","caption":"woman mountain biking (bicycle, bike, biking, cyclist, mountain, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_mountain_biking_color_default.png","caption":"woman mountain biking (bicycle, bike, biking, cyclist, mountain, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_mountain_biking_color_light.png","caption":"woman mountain biking (bicycle, bike, biking, cyclist, mountain, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_mountain_biking_color_medium.png","caption":"woman mountain biking (bicycle, bike, biking, cyclist, mountain, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_mountain_biking_color_medium-dark.png","caption":"woman mountain biking (bicycle, bike, biking, cyclist, mountain, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_mountain_biking_color_medium-light.png","caption":"woman mountain biking (bicycle, bike, biking, cyclist, mountain, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_playing_handball_color_dark.png","caption":"woman playing handball (handball, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_playing_handball_color_default.png","caption":"woman playing handball (handball, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_playing_handball_color_light.png","caption":"woman playing handball (handball, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_playing_handball_color_medium.png","caption":"woman playing handball (handball, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_playing_handball_color_medium-dark.png","caption":"woman playing handball (handball, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_playing_handball_color_medium-light.png","caption":"woman playing handball (handball, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_playing_water_polo_color_dark.png","caption":"woman playing water polo (water polo, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_playing_water_polo_color_default.png","caption":"woman playing water polo (water polo, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_playing_water_polo_color_light.png","caption":"woman playing water polo (water polo, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_playing_water_polo_color_medium.png","caption":"woman playing water polo (water polo, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_playing_water_polo_color_medium-dark.png","caption":"woman playing water polo (water polo, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_playing_water_polo_color_medium-light.png","caption":"woman playing water polo (water polo, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_rowing_boat_color_dark.png","caption":"woman rowing boat (boat, rowboat, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_rowing_boat_color_default.png","caption":"woman rowing boat (boat, rowboat, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_rowing_boat_color_light.png","caption":"woman rowing boat (boat, rowboat, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_rowing_boat_color_medium.png","caption":"woman rowing boat (boat, rowboat, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_rowing_boat_color_medium-dark.png","caption":"woman rowing boat (boat, rowboat, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_rowing_boat_color_medium-light.png","caption":"woman rowing boat (boat, rowboat, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_running_color_dark.png","caption":"woman running (marathon, racing, running, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_running_color_default.png","caption":"woman running (marathon, racing, running, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_running_color_light.png","caption":"woman running (marathon, racing, running, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_running_color_medium.png","caption":"woman running (marathon, racing, running, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_running_color_medium-dark.png","caption":"woman running (marathon, racing, running, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_running_color_medium-light.png","caption":"woman running (marathon, racing, running, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_running_facing_right_color_dark.png","caption":"woman running facing right (marathon, racing, running, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_running_facing_right_color_default.png","caption":"woman running facing right (marathon, racing, running, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_running_facing_right_color_light.png","caption":"woman running facing right (marathon, racing, running, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_running_facing_right_color_medium.png","caption":"woman running facing right (marathon, racing, running, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_running_facing_right_color_medium-dark.png","caption":"woman running facing right (marathon, racing, running, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_running_facing_right_color_medium-light.png","caption":"woman running facing right (marathon, racing, running, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_standing_color_dark.png","caption":"woman standing (standing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_standing_color_default.png","caption":"woman standing (standing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_standing_color_light.png","caption":"woman standing (standing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_standing_color_medium.png","caption":"woman standing (standing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_standing_color_medium-dark.png","caption":"woman standing (standing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_standing_color_medium-light.png","caption":"woman standing (standing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_surfing_color_dark.png","caption":"woman surfing (surfing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_surfing_color_default.png","caption":"woman surfing (surfing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_surfing_color_light.png","caption":"woman surfing (surfing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_surfing_color_medium.png","caption":"woman surfing (surfing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_surfing_color_medium-dark.png","caption":"woman surfing (surfing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_surfing_color_medium-light.png","caption":"woman surfing (surfing, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_swimming_color_dark.png","caption":"woman swimming (swim, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_swimming_color_default.png","caption":"woman swimming (swim, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_swimming_color_light.png","caption":"woman swimming (swim, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_swimming_color_medium.png","caption":"woman swimming (swim, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_swimming_color_medium-dark.png","caption":"woman swimming (swim, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_swimming_color_medium-light.png","caption":"woman swimming (swim, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_walking_color_dark.png","caption":"woman walking (hike, walk, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_walking_color_default.png","caption":"woman walking (hike, walk, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_walking_color_light.png","caption":"woman walking (hike, walk, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_walking_color_medium.png","caption":"woman walking (hike, walk, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_walking_color_medium-dark.png","caption":"woman walking (hike, walk, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_walking_color_medium-light.png","caption":"woman walking (hike, walk, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_walking_facing_right_color_dark.png","caption":"woman walking facing right (hike, walk, woman, woman walking). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_walking_facing_right_color_default.png","caption":"woman walking facing right (hike, walk, woman, woman walking). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_walking_facing_right_color_light.png","caption":"woman walking facing right (hike, walk, woman, woman walking). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_walking_facing_right_color_medium.png","caption":"woman walking facing right (hike, walk, woman, woman walking). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_walking_facing_right_color_medium-dark.png","caption":"woman walking facing right (hike, walk, woman, woman walking). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_walking_facing_right_color_medium-light.png","caption":"woman walking facing right (hike, walk, woman, woman walking). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_with_bunny_ears_color.png","caption":"women with bunny ears (bunny ear, dancer, partying, women). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_with_white_cane_color_dark.png","caption":"woman with white cane (accessibility, blind, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_with_white_cane_color_default.png","caption":"woman with white cane (accessibility, blind, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_with_white_cane_color_light.png","caption":"woman with white cane (accessibility, blind, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_with_white_cane_color_medium.png","caption":"woman with white cane (accessibility, blind, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_with_white_cane_color_medium-dark.png","caption":"woman with white cane (accessibility, blind, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_with_white_cane_color_medium-light.png","caption":"woman with white cane (accessibility, blind, woman). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_with_white_cane_facing_right_color_dark.png","caption":"woman with white cane facing right (accessibility, blind, woman, woman with white cane). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_with_white_cane_facing_right_color_default.png","caption":"woman with white cane facing right (accessibility, blind, woman, woman with white cane). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_with_white_cane_facing_right_color_light.png","caption":"woman with white cane facing right (accessibility, blind, woman, woman with white cane). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_with_white_cane_facing_right_color_medium.png","caption":"woman with white cane facing right (accessibility, blind, woman, woman with white cane). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_with_white_cane_facing_right_color_medium-dark.png","caption":"woman with white cane facing right (accessibility, blind, woman, woman with white cane). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_with_white_cane_facing_right_color_medium-light.png","caption":"woman with white cane facing right (accessibility, blind, woman, woman with white cane). Category of Activities & Sports"}
+{"image":"data/Activities & Sports/woman_wrestling_color.png","caption":"women wrestling (women, wrestle). Category of Activities & Sports"}
