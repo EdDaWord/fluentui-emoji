@@ -42,6 +42,18 @@ async function loadManualCategories() {
   }
 }
 
+// Detect if filename encodes a skin tone modifier (U+1F3FB..U+1F3FF)
+function filenameHasSkinToneModifier(filename) {
+  const name = filename.toLowerCase();
+  return (
+    name.includes('1f3fb') ||
+    name.includes('1f3fc') ||
+    name.includes('1f3fd') ||
+    name.includes('1f3fe') ||
+    name.includes('1f3ff')
+  );
+}
+
 // Helper function to ensure directory exists
 async function ensureDir(dirPath) {
   try {
@@ -151,7 +163,7 @@ function filenameToUnicodeKey(filename) {
 }
 
 // Main processing function
-async function processAppleAssets() {
+async function processAppleAssets(options = {}) {
   const apple512Path = path.join(__dirname, '512x512-apple');
   const appleDataDir = path.join(__dirname, 'manualApple', 'data');
   const appleJsonlDir = path.join(__dirname, 'manualApple', 'jsonl');
@@ -176,7 +188,10 @@ async function processAppleAssets() {
     return;
   }
 
-  const pngFiles = appleFiles.filter(file => file.toLowerCase().endsWith('.png'));
+  let pngFiles = appleFiles.filter(file => file.toLowerCase().endsWith('.png'));
+  if (options.defaultOnly) {
+    pngFiles = pngFiles.filter((file) => !filenameHasSkinToneModifier(file));
+  }
   console.log(`Found ${pngFiles.length} PNG files in 512x512-apple directory`);
 
   const appleCategoryEntries = {};
@@ -299,7 +314,24 @@ async function processAppleAssets() {
 
 // Run the script
 if (require.main === module) {
-  processAppleAssets().catch(console.error);
+  const args = process.argv.slice(2);
+  const options = {};
+  for (let i = 0; i < args.length; i++) {
+    const arg = args[i];
+    switch (arg) {
+      case '--default-only':
+      case '--no-skin-tones':
+      case '--no-skintones':
+        options.defaultOnly = true;
+        break;
+      case '--help':
+        console.log('Usage: node generate_apple_dataset.js [--default-only]');
+        process.exit(0);
+      default:
+        break;
+    }
+  }
+  processAppleAssets(options).catch(console.error);
 }
 
 module.exports = { processAppleAssets };

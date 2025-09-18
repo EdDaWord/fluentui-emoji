@@ -45,6 +45,18 @@ async function loadManualCategories() {
   }
 }
 
+// Detect if filename encodes a skin tone modifier (U+1F3FB..U+1F3FF)
+function filenameHasSkinToneModifier(filename) {
+  const name = filename.toLowerCase();
+  return (
+    name.includes('1f3fb') ||
+    name.includes('1f3fc') ||
+    name.includes('1f3fd') ||
+    name.includes('1f3fe') ||
+    name.includes('1f3ff')
+  );
+}
+
 // Helper function to ensure directory exists
 async function ensureDir(dirPath) {
   try {
@@ -159,7 +171,7 @@ function unicodeFilenameToUnicode(filename) {
 }
 
 // Main processing function
-async function processOpenmojiAssets() {
+async function processOpenmojiAssets(options = {}) {
   const assetsPath = path.join(__dirname, 'assets');
   const openmoji72Path = path.join(__dirname, '512x512-openmoji');
   const openmojiDataDir = path.join(__dirname, 'manualOpenmoji', 'data');
@@ -176,7 +188,10 @@ async function processOpenmojiAssets() {
   
   // Read all PNG files from 512x512-openmoji directory
   const openmojiFiles = await readdir(openmoji72Path);
-  const pngFiles = openmojiFiles.filter(file => file.endsWith('.png'));
+  let pngFiles = openmojiFiles.filter(file => file.endsWith('.png'));
+  if (options.defaultOnly) {
+    pngFiles = pngFiles.filter((file) => !filenameHasSkinToneModifier(file));
+  }
   console.log(`Found ${pngFiles.length} PNG files in 512x512-openmoji directory`);
   
   const openmojiCategoryEntries = {};
@@ -303,7 +318,24 @@ async function processOpenmojiAssets() {
 
 // Run the script
 if (require.main === module) {
-  processOpenmojiAssets().catch(console.error);
+  const args = process.argv.slice(2);
+  const options = {};
+  for (let i = 0; i < args.length; i++) {
+    const arg = args[i];
+    switch (arg) {
+      case '--default-only':
+      case '--no-skin-tones':
+      case '--no-skintones':
+        options.defaultOnly = true;
+        break;
+      case '--help':
+        console.log('Usage: node generate_openmoji_dataset.js [--default-only]');
+        process.exit(0);
+      default:
+        break;
+    }
+  }
+  processOpenmojiAssets(options).catch(console.error);
 }
 
 module.exports = { processOpenmojiAssets };

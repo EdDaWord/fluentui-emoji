@@ -45,6 +45,17 @@ async function loadManualCategories() {
   }
 }
 
+function stringHasSkinToneModifier(s) {
+  const t = s.toLowerCase();
+  return (
+    t.includes('1f3fb') ||
+    t.includes('1f3fc') ||
+    t.includes('1f3fd') ||
+    t.includes('1f3fe') ||
+    t.includes('1f3ff')
+  );
+}
+
 function findEmojiCategory(emojiName, categories, manualCategories, emojiGlyph) {
   // First check manual categories by glyph
   if (manualCategories && emojiGlyph) {
@@ -159,7 +170,7 @@ function unicodeToFilename(unicode) {
   return `${unicode.toLowerCase()}.png`;
 }
 
-async function processTwitterAssets() {
+async function processTwitterAssets(options = {}) {
   const assetsPath = path.join(__dirname, 'assets');
   const twitter512Path = path.join(__dirname, '512x512-twitter');
   const twitterDataDir = path.join(__dirname, 'manualTwitter', 'data');
@@ -191,7 +202,10 @@ async function processTwitterAssets() {
   
   // Get all 512x512 PNG files
   const twitterFiles = await readdir(twitter512Path);
-  const pngFiles = twitterFiles.filter(file => file.endsWith('.png'));
+  let pngFiles = twitterFiles.filter(file => file.endsWith('.png'));
+  if (options.defaultOnly) {
+    pngFiles = pngFiles.filter((file) => !stringHasSkinToneModifier(file));
+  }
   console.log(`Found ${pngFiles.length} PNG files in 512x512-twitter directory`);
   
   const twitterCategoryEntries = {};
@@ -202,6 +216,10 @@ async function processTwitterAssets() {
   for (const filename of pngFiles) {
     // Extract unicode from filename (remove .png extension)
     const unicode = filename.replace('.png', '').toLowerCase();
+    if (options.defaultOnly && stringHasSkinToneModifier(unicode)) {
+      skippedCount++;
+      continue;
+    }
     
     // Look up metadata by unicode
     const metadata = unicodeToMetadata.get(unicode);
@@ -304,7 +322,24 @@ async function processTwitterAssets() {
 
 // Run the script
 if (require.main === module) {
-  processTwitterAssets().catch(error => {
+  const args = process.argv.slice(2);
+  const options = {};
+  for (let i = 0; i < args.length; i++) {
+    const arg = args[i];
+    switch (arg) {
+      case '--default-only':
+      case '--no-skin-tones':
+      case '--no-skintones':
+        options.defaultOnly = true;
+        break;
+      case '--help':
+        console.log('Usage: node generate_twitter_dataset.js [--default-only]');
+        process.exit(0);
+      default:
+        break;
+    }
+  }
+  processTwitterAssets(options).catch(error => {
     console.error('Error processing twitter assets:', error);
     process.exit(1);
   });

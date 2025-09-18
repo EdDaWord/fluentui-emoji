@@ -163,7 +163,8 @@ async function listPngFilesUnder(dirPath) {
   }
 }
 
-async function findColorPngFiles(pngRoot, assetName) {
+async function findColorPngFiles(pngRoot, assetName, options = {}) {
+  const { defaultOnly = false } = options;
   const results = [];
   // Top-level Color directory
   const colorDir = path.join(pngRoot, assetName, 'Color');
@@ -179,6 +180,7 @@ async function findColorPngFiles(pngRoot, assetName) {
   }
   for (const sub of subdirs) {
     if (!SKINTONE_FOLDERS.has(sub)) continue;
+    if (defaultOnly && sub !== 'Default') continue;
     const stColorDir = path.join(assetRoot, sub, 'Color');
     results.push(...await listPngFilesUnder(stColorDir));
   }
@@ -248,7 +250,7 @@ function generateCaptions(metadata, filename, category = null) {
   return captions;
 }
 
-async function processAssets() {
+async function processAssets(options = {}) {
   const assetsPath = path.join(__dirname, 'assets');
   const pngRoot = path.join(__dirname, '512x512-fluent');
   const manualDataDir = path.join(__dirname, 'manualFluent', 'data');
@@ -276,7 +278,7 @@ async function processAssets() {
     console.log(`Processing ${assetName}...`);
     
     // Find Color PNG files for this asset in 512x512-fluent
-    const colorPngFiles = await findColorPngFiles(pngRoot, assetName);
+    const colorPngFiles = await findColorPngFiles(pngRoot, assetName, { defaultOnly: options.defaultOnly === true });
     
     if (colorPngFiles.length === 0) {
       console.log(`  No Color PNG files found for ${assetName}`);
@@ -378,7 +380,24 @@ async function processAssets() {
 
 // Run the script
 if (require.main === module) {
-  processAssets().catch(error => {
+  const args = process.argv.slice(2);
+  const options = {};
+  for (let i = 0; i < args.length; i++) {
+    const arg = args[i];
+    switch (arg) {
+      case '--default-only':
+      case '--no-skin-tones':
+      case '--no-skintones':
+        options.defaultOnly = true;
+        break;
+      case '--help':
+        console.log('Usage: node generate_fluent_dataset.js [--default-only]');
+        process.exit(0);
+      default:
+        break;
+    }
+  }
+  processAssets(options).catch(error => {
     console.error('Error processing assets:', error);
     process.exit(1);
   });
